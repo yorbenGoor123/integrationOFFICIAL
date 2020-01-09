@@ -1,4 +1,8 @@
 require('./style.css');
+require('./js/lib/particles.js');
+require('./js/app.js');
+require('./js/lib/stats');
+
 //geforceerd iets toevoegen
 {
   const $filterForm = document.querySelector(`.filter__form`);

@@ -83,8 +83,6 @@
 
     <?php echo $js; ?>
 
-    <script src="./js/lib/particles.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/lib/stats.js"></script>
+
   </body>
 </html>
