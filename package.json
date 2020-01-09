@@ -34,6 +34,9 @@
     "mamp-prod": "./node_modules/.bin/mamp switch \"$(pwd)/dist\"",
     "heroku-postbuild": "yarn prod"
   },
+  "engines": {
+    "node": "12.11.1"
+  },
   "browserslist": [
     "last 2 versions",
     "> 1%",
