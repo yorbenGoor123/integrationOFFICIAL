@@ -1,3 +1,17 @@
 .section3 {
   background-color: var(--colorMain);
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section3__quote, .section3__author {
+  color: var(--colorSecondary);
+  margin: var(--spacerRegular);
+}
+
+.section3__quote {
+  font-size: var(--fontBig);
 }

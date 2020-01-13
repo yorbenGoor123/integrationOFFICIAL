@@ -8,3 +8,12 @@
   grid-row: 1;
   width: 100%;
 }
+
+.section2__paragraph {
+  color: var(--colorText);
+  margin-left: 5rem;
+  font-weight: var(--fontWeightNormal);
+  font-size: var(--fontRegular);
+  line-height: 2rem;
+  margin-top: 10rem;
+}
