@@ -1,7 +1,11 @@
 require('./style.css');
-require('./js/lib/particles.js');
+require('./js/lib/particles.min.js');
 require('./js/app.js');
 require('./js/lib/stats');
+import Parallax from 'parallax-js';
+
+const scene = document.getElementById('scene');
+const parallax = new Parallax(scene);
 
 //geforceerd iets toevoegen
 {

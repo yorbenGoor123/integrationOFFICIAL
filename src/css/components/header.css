@@ -36,6 +36,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 8rem;
+  background-color: white;
 
   @media (--only-large-screen) {
     display: grid;

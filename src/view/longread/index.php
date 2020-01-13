@@ -33,4 +33,23 @@
         </div>
 
         </section>
+
+        <section class="section2">
+
+          <div id="scene" class="background-image">
+            <img data-depth="0" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0009_sky.png" alt="">
+            <img data-depth="0" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0008_ground.png" alt="">
+            <img data-depth="0" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0007_black.png" alt="">
+            <img data-depth="1" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0006_vlinder_1.png" alt="">
+            <img data-depth="1" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0004_vlinder-2.png" alt="">
+            <img data-depth="0" class="image__section2__part glow" src="assets/images/sectie2/the-real-world_0000s_0003_paddenstoel.png" alt="">
+            <img data-depth="0" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0001_person.png" alt="">
+            <img data-depth="0.1" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0000_lightbulb.png" alt="">
+          </div>
+        </section>
+
+        <section class="section3">
+        <p class="section3__quote">“I created the OASIS because I never felt at home in the real world”</p>
+        <p class="section3__author">-James Halliday-</p>
+        </section>
     </main>

@@ -1,0 +1,10 @@
+.background-image {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.image__section2__part {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+}
