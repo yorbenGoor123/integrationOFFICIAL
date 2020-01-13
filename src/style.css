@@ -1,8 +1,8 @@
-@import './css/vars-longread.css';
-@import './css/normalize.css';
-@import './css/typography.css';
-@import './css/components/hamburger-menu.css';
-@import './css/particles.css';
-@import './css/components/header.css';
-@import './css/1st-section.css';
-@import './css/components/scrollDown.css';
+@import url(./css/vars-longread.css);
+@import url(./css/normalize.css);
+@import url(./css/typography.css);
+@import url(./css/components/hamburger-menu.css);
+@import url(./css/particles.css);
+@import url(./css/components/header.css);
+@import url(./css/1st-section.css);
+@import url(./css/components/scrollDown.css);
