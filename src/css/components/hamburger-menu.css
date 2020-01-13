@@ -3,6 +3,10 @@
   margin-top: 2rem;
   display: grid;
   user-select: none;
+
+  @media (--only-large-screen) {
+    display: none;
+  }
 }
 
 #menuToggle a {
@@ -27,10 +31,6 @@
   grid-row: 1;
   grid-column: 1;
 }
-
-/*
-* Just a quick hamburger
-*/
 
 .span__item {
   display: block;
@@ -100,6 +100,17 @@
   padding: 2rem;
   border-bottom: 2px solid black;
   color: black;
+
+  @media (--only-large-screen) {
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: .8rem;
+    color: black;
+    margin: 1rem;
+    width: 10rem;
+    text-decoration: none;
+  }
 }
 
 .menu__item__link:active {

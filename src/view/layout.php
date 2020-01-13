@@ -28,7 +28,7 @@
     </ul>
 
 
-    <div id="menuToggle">
+    <div id="menuToggle" class= "menuToggle">
       <input type="checkbox" />
       <div class="hamburger__menu__wrapper">
       <span class="span__item"></span>
