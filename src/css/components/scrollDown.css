@@ -1,0 +1,46 @@
+.down {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  border-radius: 25px;
+  background: transparent;
+  border: 3px solid var(--colorSecondary);
+  overflow: hidden;
+}
+
+@keyframes animate {
+
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(-50%, 40px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, 80px);
+    opacity: 0;
+  }
+}
+
+.down::before {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--colorSecondary);
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%, 0);
+  animation: animate 1s linear infinite;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacerBig);
+}

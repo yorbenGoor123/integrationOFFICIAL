@@ -3,15 +3,16 @@
   --colorText: white;
   --colorTitles: #00d980;
   --colorMain: black;
+  --colorSecondary: #00d980;
   --spacerSmall: .75rem; /* 12px */
   --spacerRegular: 1rem; /* 16px */
-  --spacerBig: 1.88rem; /* 30px */
+  --spacerBig: 3rem; /* 30px */
   --fontSmall: .75rem; /* 12px */
   --fontRegular: 1rem; /* 18px */
   --fontMedium: 1.25rem; /* 20px */
   --fontMediumBig: 1.5rem;
   --fontBig: 1.75rem; /* 28px */
-  --fontTitle: 2.3rem;
+  --fontTitle: 3.5rem;
   --buttonFont: 1.3rem;
   --font: poppins, sans-serif;
   --fontWeightLight: 200;

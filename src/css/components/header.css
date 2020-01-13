@@ -88,7 +88,7 @@
 }
 
 .socialMedia {
-  background: #030f34;
+  background: var(--colorMain);
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 3rem 1fr 1fr 3rem;
