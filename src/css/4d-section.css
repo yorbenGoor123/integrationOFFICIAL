@@ -1,0 +1,14 @@
+.background-image__section4 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.image__section4__part {
+  grid-column: 1;
+  grid-row: 1;
+  width: 130%;
+
+  @media (--only-large-screen) {
+    width: 100%;
+  }
+}

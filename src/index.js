@@ -7,6 +7,9 @@ import Parallax from 'parallax-js';
 const scene = document.getElementById('scene');
 const parallax = new Parallax(scene);
 
+const scene2 = document.getElementById('scene2');
+const paralaxScene2 = new Parallax(scene2);
+
 //geforceerd iets toevoegen
 {
   const $filterForm = document.querySelector(`.filter__form`);

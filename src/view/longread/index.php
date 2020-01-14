@@ -78,4 +78,64 @@
         <p class="section3__quote">“I created the OASIS because I never felt at home in the real world”</p>
         <p class="section3__author">-James Halliday-</p>
         </section>
-    </main>
+
+        <section class="section2">
+
+<div class="text__wrapper right">
+
+<h2 class="section__title glow grid-position1">EEN EASTER EGG</h2>
+
+<div class="right grid-position2">
+<p class="section2__paragraph">Een easter egg is een woord dat gamers hebben uitgevonden.
+Een easter egg heeft als doel om gevonden te worden…
+net als een paasei. Een easter egg kan soms heel moeilijk
+zijn om te vinden in een game waardoor gamers het soms
+ontdekken na enkele jaren dat het spel uit is.
+De maker van de oasis had een easter egg in the oasis
+gestoken dat volledig het lot ervan zou bepalen. Wie de easter
+egg kon vinden mocht doen met the oasis wat hij altijd
+al wou.doen. 3 sleutels moest de persoon in kwestie
+vinden voor 3 poorten te kunnen openen. Alleen
+degene die Halliday het best kenden en dachten dat ze
+het waard waren konden de sleutels vinden.
+Parzival had 5 jaar James Halliday zen leven bestudeerd
+maar zonder succes.
+ </p>
+ </div>
+    <div class="button__pulsating grid-position3"><span class="pulsating__button"></span> <a class="pulsating__button__text" href="">Open Easter egg</a></div>
+    </div>
+
+  <div id="scene2" class="background-image__section4">
+    <img data-depth="0" class="image__section4__part" src="assets/images/sectie4/light_0000s_0005_bg.png" alt="">
+    <img data-depth="0" class="image__section4__part" src="assets/images/sectie4/light_0000s_0004_Layer-9.png" alt="">
+    <img data-depth="0" class="image__section4__part" src="assets/images/sectie4/light_0000s_0003_lamp.png" alt="">
+    <img data-depth="0" class="image__section4__part" src="assets/images/sectie4/light_0000s_0002_Layer-10.png" alt="">
+    <img data-depth="0.6" class="image__section4__part glow" src="assets/images/sectie4/light_0000s_0001_egg.png" alt="">
+    <img data-depth="0" class="image__section4__part" src="assets/images/sectie4/light_0000s_0000_Layer-2.png" alt="">
+  </div>
+
+</section>
+
+<section class="section5">
+<div id="particles-js2"> </div>
+<div class="key__images__container">
+  <div class="copper__key container__key">
+  <p class="key__text copper">Copper key</p>
+  <img class="key__images" src="assets/images/keys/copper key.png" alt="">
+  </div>
+
+  <div class="jade__key container__key">
+  <p class="key__text jade">Jade key</p>
+  <img class="key__images" src="assets/images/keys/jade key.png" alt="">
+  </div>
+
+  <div class="crystal__key container__key">
+  <p class="key__text crystal">Jade key</p>
+  <img class="key__images" src="assets/images/keys/crystal key.png" alt="">
+  </div>
+
+</div>
+</section>
+
+
+</main>
