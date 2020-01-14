@@ -1,0 +1,13 @@
+.section__justRemember {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+
+}
+
+.section__justRemember__text {
+  height: 10rem;
+  font-size: var(--fontTitle);
+  color: var(--colorSecondary);
+}

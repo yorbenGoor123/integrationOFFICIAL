@@ -13,6 +13,9 @@ const paralaxScene2 = new Parallax(scene2);
 const scene3 = document.getElementById('scene3');
 const paralaxScene3 = new Parallax(scene3);
 
+const scene4 = document.getElementById('scene4');
+const paralaxScene4 = new Parallax(scene4);
+
 //geforceerd iets toevoegen
 {
   const $filterForm = document.querySelector(`.filter__form`);

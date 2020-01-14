@@ -178,4 +178,38 @@ maar zonder succes.
         </div>
         </section>
 
+        <section class="section__justRemember">
+          <p class="section__justRemember__text">just remember...</p>
+        </section>
+
+        <section class="section2">
+
+<div class="text__wrapper right">
+
+<h2 class="section__title glow grid-position1">Je echte identiteit
+is nooit veilig</h2>
+
+<div class="right grid-position2">
+<p class="section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van
+vandaag. Een boek dat je een indirecte les geeft over
+internetveiligheid. Vertrouw nooit iemand online. Mensen kunnen
+je privé gegevens achterhalen met de minste tips dat je hen heeft.
+Parzival gaf zeer kleine tips waardoor zijn vijand meteen zijn echte
+identiteit kon ontdekken en een aanval kon plannen op zijn thuis.
+Zijn tante kwam om. Gelukkig wist de vijand niet van zijn geheime
+schuilplek waardoor hij onder de radar voor een tijd kon blijven.
+ </p>
+ </div>
+    <div class="button__pulsating grid-position3"><span class="pulsating__button"></span> <a class="pulsating__button__text" href="">KOOP BOEK</a></div>
+    </div>
+
+  <div id="scene4" class="background-image__section4">
+    <img data-depth="0.1" class="image__section4__part" src="assets/images/sectie8/your-real-identity_0000s_0003_bg.png" alt="">
+    <img data-depth="0.4" class="image__section4__part" src="assets/images/sectie8/your-real-identity_0000s_0002_person.png" alt="">
+    <img data-depth="0" class="image__section4__part" src="assets/images/sectie8/your-real-identity_0000s_0001_Layer-4.png" alt="">
+    <img data-depth="0" class="image__section4__part" src="assets/images/sectie8/your-real-identity_0000s_0000_Layer-5.png" alt="">
+  </div>
+
+</section>
+
 </main>

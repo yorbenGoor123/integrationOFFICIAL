@@ -83,6 +83,16 @@
 
     <?php echo $js; ?>
 
+    <footer class="footer">
+        <img class="presented__humo__footer" src="assets/images/presented.svg" alt="">
+
+        <div class="socialMedia__footer">
+            <div class="socialMedia__wrapper__footer">
+                <a class="socialMedia__link__footer" href=""><img class="socialMedia__image" src="assets/images/facebook.svg" alt="facebook"></a>
+                <a class="socialMedia__link__footer" href=""><img class="socialMedia__image" src="assets/images/insta.svg" alt="instagram"></a>
+                <a class="socialMedia__link__footer" href=""><img class="socialMedia__image" src="/assets/images/twitter.svg" alt="twitter"></a>
+            </div>
+    </footer>
 
   </body>
 </html>
