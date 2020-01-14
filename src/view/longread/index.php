@@ -37,10 +37,10 @@
         <section class="section2">
 
         <div class="text__wrapper">
-        <h2 class="section__title glow">MEET JAMES
+        <h2 class="section__title glow digit">MEET JAMES
             HALLIDAY</h2>
 
-        <p class="section2__paragraph">De man die THE OASIS heeft gecreëerd. Een virtuele wereld waar al je
+        <p class="section2__paragraph digit">De man die THE OASIS heeft gecreëerd. Een virtuele wereld waar al je
             dromen uitkomen beschreef hij het. Een plaats waar je een 2de leven
             kunt lijden als je echte leventje maar wat saai is. Op een zekere dag
             kwam de dag des oordeels aan op James Halliday. Hij stierf…
@@ -83,9 +83,9 @@
 
 <div class="text__wrapper right">
 
-<h2 class="section__title glow grid-position1">EEN EASTER EGG</h2>
+<h2 class="section__title glow grid-position1 digit__right">EEN EASTER EGG</h2>
 
-<div class="right grid-position2">
+<div class="right grid-position2 digit__right">
 <p class="section2__paragraph">Een easter egg is een woord dat gamers hebben uitgevonden.
 Een easter egg heeft als doel om gevonden te worden…
 net als een paasei. Een easter egg kan soms heel moeilijk
@@ -140,9 +140,9 @@ maar zonder succes.
 <section class="section2">
 
         <div class="text__wrapper">
-        <h2 class="section__title glow">DE DRIE SLEUTELS</h2>
+        <h2 class="section__title glow digit">DE DRIE SLEUTELS</h2>
 
-        <p class="section2__paragraph">Voor de easter egg te voltooien moet je 3 poorten open doen
+        <p class="section2__paragraph digit">Voor de easter egg te voltooien moet je 3 poorten open doen
         met 3 sleutels. De drie sleutels zijn beproevingen dat je niet
         test op je skill maar dat getest wordt aan de hand van
         verschillende factoren: hoe goed je Halliday kent, of je the oasis
@@ -186,10 +186,10 @@ maar zonder succes.
 
 <div class="text__wrapper right">
 
-<h2 class="section__title glow grid-position1">Je echte identiteit
+<h2 class="section__title glow grid-position1 digit__right" >Je echte identiteit
 is nooit veilig</h2>
 
-<div class="right grid-position2">
+<div class="right grid-position2 digit__right">
 <p class="section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van
 vandaag. Een boek dat je een indirecte les geeft over
 internetveiligheid. Vertrouw nooit iemand online. Mensen kunnen
