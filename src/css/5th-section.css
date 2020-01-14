@@ -1,0 +1,35 @@
+.key__images {
+  width: 8rem;
+  margin: 2rem;
+}
+
+.key__images__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container__key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: calc(var(--spacerBig) * 3);
+}
+
+.key__text {
+  color: white;
+  font-weight: var(--fontWeightBold);
+}
+
+.jade {
+  color: #00d980;
+}
+
+.copper {
+  color: #948a59;
+}
+
+.crystal {
+  color: #4ececb;
+}

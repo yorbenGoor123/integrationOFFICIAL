@@ -1,6 +1,7 @@
 @import url(./css/vars-longread.css);
 @import url(./css/layout.css);
 @import url(./css/normalize.css);
+@import url(./css/components/loader.css);
 @import url(./css/typography.css);
 @import url(./css/components/hamburger-menu.css);
 @import url(./css/particles.css);
@@ -10,3 +11,5 @@
 @import url(./css/2nd-section.css);
 @import url(./css/3d-section.css);
 @import url(./css/components/interaction_button.css);
+@import url(./css/4d-section.css);
+@import url(./css/5th-section.css);
