@@ -17,3 +17,23 @@
 .center__title {
   text-align: center;
 }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: var(--spacerBig);
+}
+
+.presented__humo__footer {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.socialMedia__footer {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.socialMedia__link__footer {
+  margin: var(--spacerBig);
+}
