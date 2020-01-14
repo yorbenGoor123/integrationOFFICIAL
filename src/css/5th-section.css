@@ -19,7 +19,7 @@
 
 .key__text {
   color: white;
-  font-weight: var(--fontWeightNormal);
+  font-weight: var(--fontWeightBold);
 }
 
 .jade {

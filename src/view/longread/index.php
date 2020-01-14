@@ -130,12 +130,37 @@ maar zonder succes.
   </div>
 
   <div class="crystal__key container__key">
-  <p class="key__text crystal">Jade key</p>
+  <p class="key__text crystal">Crystal key</p>
   <img class="key__images" src="assets/images/keys/crystal key.png" alt="">
   </div>
 
 </div>
 </section>
+
+<section class="section2">
+
+        <div class="text__wrapper">
+        <h2 class="section__title glow">DE DRIE SLEUTELS</h2>
+
+        <p class="section2__paragraph">Voor de easter egg te voltooien moet je 3 poorten open doen
+        met 3 sleutels. De drie sleutels zijn beproevingen dat je niet
+        test op je skill maar dat getest wordt aan de hand van
+        verschillende factoren: hoe goed je Halliday kent, of je the oasis
+        met verstand zou behandelen, of je het wel waard bent voor
+        the oasis te bezitten. </p>
+            <div class="button__pulsating"><span class="pulsating__button"></span> <a class="pulsating__button__text" href="">Verzamel de sleutels</a></div>
+            </div>
+
+          <div id="scene3" class="background-image">
+            <img data-depth="0" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0006_Layer-1.png" alt="">
+            <img data-depth="0" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0005_bg.png" alt="">
+            <img data-depth="1" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0003_Group-2.png" alt="">
+            <img data-depth="1" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0002_Group-1.png" alt="">
+            <img data-depth="1" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0001_Group-3.png" alt="">
+            <img data-depth="0" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0000_Layer-13.png" alt="">
+          </div>
+
+        </section>
 
 
 </main>
