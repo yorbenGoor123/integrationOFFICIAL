@@ -4,7 +4,6 @@ require('./js/app.js');
 require('./js/lib/stats');
 import Parallax from 'parallax-js';
 import ScrollMagic from 'ScrollMagic';
-import 'ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
 
 
 {
