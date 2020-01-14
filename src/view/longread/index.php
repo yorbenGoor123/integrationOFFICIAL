@@ -14,7 +14,7 @@
           </div>
             <div class="hero__text">
             <span class="green__title hero__item">Humanity</span>
-            <p class= "hero__paragraph__sub hero__item">destoyed the world</p>
+            <p class= "hero__paragraph__sub hero__item">destroyed the world</p>
             <p class="hero__paragraph__small hero__item">so they created their own world <br> called <span class="green__text">the oasis</span></p>
           </div>
           </div>
@@ -36,6 +36,30 @@
 
         <section class="section2">
 
+        <div class="text__wrapper">
+        <h2 class="section__title glow">MEET JAMES
+            HALLIDAY</h2>
+
+        <p class="section2__paragraph">De man die THE OASIS heeft gecreëerd. Een virtuele wereld waar al je
+            dromen uitkomen beschreef hij het. Een plaats waar je een 2de leven
+            kunt lijden als je echte leventje maar wat saai is. Op een zekere dag
+            kwam de dag des oordeels aan op James Halliday. Hij stierf…
+            maar niet onvoorbereid! Een mededeling dat de competitiviteit in
+            spelers naar boven haalde speelde zich af op het grote scherm.
+            Een easter egg (een geheimpje in een spel dat moeilijk te vinden is)
+            zou het lot van heel de oasis veranderen. Degene die de easter
+            egg zou ontrafelen, was de enige echte eigenaar van the oasis.
+            In het begin waren spelers vol enthousiasme aan het zoeken naar
+            de easter egg maar zonder succes. De easter egg is na 5 jaar
+            nog niet ontrafelt en spelers hebben de hoop opgegeven.
+            Alleen degene die James Halliday vanbinnen en vanbuiten
+            kennen zouden de sleutels van de droomwereld kunnen verkrijgen.
+            Alleen de andere eigenaar van the oasis kende James door en door.
+            Tot als een zekere Parzival (Wade Watts) een naam gebaseerd op de
+            arthurian ridder een hint ontdekte dat het tegendeel bewijst. </p>
+            <div class="button__pulsating"><span class="pulsating__button"></span> <a class="pulsating__button__text" href="">Mijn droomwereld ontdekken</a></div>
+            </div>
+
           <div id="scene" class="background-image">
             <img data-depth="0" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0009_sky.png" alt="">
             <img data-depth="0" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0008_ground.png" alt="">
@@ -43,27 +67,11 @@
             <img data-depth="1" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0006_vlinder_1.png" alt="">
             <img data-depth="1" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0004_vlinder-2.png" alt="">
             <img data-depth="0" class="image__section2__part glow" src="assets/images/sectie2/the-real-world_0000s_0003_paddenstoel.png" alt="">
-            <img data-depth="0" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0001_person.png" alt="">
+            <img data-depth="0.1" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0001_person.png" alt="">
             <img data-depth="0.1" class="image__section2__part" src="assets/images/sectie2/the-real-world_0000s_0000_lightbulb.png" alt="">
 
-            <p class="section2__paragraph">De man die THE OASIS heeft gecreëerd. Een virtuele wereld waar al je <br>
-            dromen uitkomen beschreef hij het. Een plaats waar je een 2de leven <br>
-            kunt lijden als je echte leventje maar wat saai is. Op een zekere dag <br>
-            kwam de dag des oordeels aan op James Halliday. Hij stierf… <br>
-            maar niet onvoorbereid! Een mededeling dat de competitiviteit in <br>
-            spelers naar boven haalde speelde zich af op het grote scherm. <br>
-            Een easter egg (een geheimpje in een spel dat moeilijk te vinden is) <br>
-            zou het lot van heel de oasis veranderen. Degene die de easter <br>
-            egg zou ontrafelen, was de enige echte eigenaar van the oasis. <br>
-            In het begin waren spelers vol enthousiasme aan het zoeken naar <br>
-            de easter egg maar zonder succes. De easter egg is na 5 jaar <br>
-            nog niet ontrafelt en spelers hebben de hoop opgegeven. <br>
-            Alleen degene die James Halliday vanbinnen en vanbuiten <br>
-            kennen zouden de sleutels van de droomwereld kunnen verkrijgen. <br>
-            Alleen de andere eigenaar van the oasis kende James door en door. <br>
-            Tot als een zekere Parzival (Wade Watts) een naam gebaseerd op de <br>
-            arthurian ridder een hint ontdekte dat het tegendeel bewijst.</p>
           </div>
+
         </section>
 
         <section class="section3">

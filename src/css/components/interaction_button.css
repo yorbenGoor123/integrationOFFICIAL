@@ -1,0 +1,48 @@
+.pulsating__button {
+  display: block;
+  margin: 2rem;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--colorSecondary);
+  cursor: pointer;
+  box-shadow: 0 0 0 #bbf0da;
+  animation: pulsating 2s infinite;
+}
+
+.pulsating__button:hover {
+  animation: none;
+}
+
+@keyframes pulsating {
+
+  0% {
+    box-shadow: 0 0 0 0 #bbf0da;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px #bbf0da;
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 #bbf0da;
+  }
+}
+
+.button__pulsating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (--only-large-screen) {
+    margin-left: 6rem;
+    margin-bottom: -10rem;
+
+  }
+}
+
+.pulsating__button__text {
+  color: var(--colorSecondary);
+  font-weight: var(--fontWeightBold);
+}

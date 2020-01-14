@@ -10,6 +10,7 @@
 .section3__quote, .section3__author {
   color: var(--colorSecondary);
   margin: var(--spacerRegular);
+  text-align: center;
 }
 
 .section3__quote {
