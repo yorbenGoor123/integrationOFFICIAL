@@ -153,7 +153,7 @@ maar zonder succes.
 
           <div id="scene3" class="background-image">
             <img data-depth="0" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0006_Layer-1.png" alt="">
-            <img data-depth="0" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0005_bg.png" alt="">
+            <img data-depth="0.3" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0005_bg.png" alt="">
             <img data-depth="1" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0003_Group-2.png" alt="">
             <img data-depth="1" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0002_Group-1.png" alt="">
             <img data-depth="1" class="image__section2__part" src="assets/images/sectie6/dreamworld_0000s_0001_Group-3.png" alt="">
@@ -162,5 +162,20 @@ maar zonder succes.
 
         </section>
 
+        <section class="section__choice">
+        <div id="particles-js3"> </div>
+        <h2 class="section__title center__title">WAT ZOU JIJ KIEZEN?</h2>
+        <div class="section__choice__wrapper">
+        <div class="choice choice__oasis">
+          <p class="choice__title">De oasis</p>
+          <span class="pulsating__button"></span>
+        </div>
+
+        <div class="choice choice__realWorld">
+          <p class="choice__title">De echte wereld</p>
+          <span class="pulsating__button"></span>
+        </div>
+        </div>
+        </section>
 
 </main>
