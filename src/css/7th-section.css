@@ -1,0 +1,61 @@
+.section__choice {
+  display: none;
+}
+
+@media screen and (--only-large-screen) {
+
+  .section__choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__choice__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .choice {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30rem;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .choice__oasis {
+    border-right: 2px solid var(--colorSecondary);
+    background-image: url(../assets/images/bril.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-y: 5rem;
+    background-position-x: -20rem;
+    transition: background-position-x .3s cubic-bezier(.77, .2, .05, 1);
+  }
+
+  .choice__oasis:hover {
+    background-position-x: -5rem;
+  }
+
+  .choice__realWorld {
+    background-image: url(../assets/images/the_real.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 30rem;
+    transition: background-position-x .3s cubic-bezier(.77, .2, .05, 1);
+  }
+
+  .choice__realWorld:hover {
+    background-position-x: 15rem;
+  }
+
+  .choice__title {
+    color: var(--colorLightest);
+    font-size: var(--fontBig);
+    font-weight: var(--fontWeightBold);
+  }
+
+}
