@@ -6,8 +6,13 @@ const webpack = require('webpack');
 module.exports = (env, {mode}) => {
   console.log(mode);
   return {
+    entry: {
+      index: './src/index.js',
+      humo: './src/humo.js'
+    },
     output: {
-      filename: 'script.js',
+      filename: '[name].js',
+      path: `${__dirname }/dist`
     },
     devServer: {
       overlay: true,
@@ -58,7 +63,7 @@ module.exports = (env, {mode}) => {
     },
     plugins: [
       new MiniCssExtractPlugin({
-        filename: 'style.css'
+        filename: '[name].css'
       }),
       new OptimizeCSSAssetsPlugin(),
       new webpack.HotModuleReplacementPlugin()
