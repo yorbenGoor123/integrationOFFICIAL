@@ -1,11 +1,16 @@
-require('./style.css');
+require('./index.css');
 require('./js/lib/particles.min.js');
 require('./js/app.js');
 require('./js/lib/stats');
 import Parallax from 'parallax-js';
+<<<<<<< HEAD
 import ScrollMagic from 'scrollmagic';
 
 
+=======
+import ScrollMagic from 'ScrollMagic';
+import 'ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
+>>>>>>> development
 {
 
   const parallax = () => {

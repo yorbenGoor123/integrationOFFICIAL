@@ -15,14 +15,23 @@ class Controller {
 
   public function render() {
     // load javascript through webpack-dev-server (not MAMP!)
-    $this->set('js', '<script src="http://localhost:8080/script.js"></script>');
+    $this->set('js', '<script src="http://localhost:8080/index.js"></script>');
+    $this->set('humojs', '<script src="http://localhost:8080/humo.js"></script>');
+
     // webpack dev server: css is injected by the script
     $this->set('css', '');
+    $this->set('csshumo', '');
+
     if ($this->env == 'production') {
       // regular script in production
-      $this->set('js', '<script src="script.js"></script>');
+      $this->set('js', '<script src="index.js"></script>');
+
+      $this->set('humojs', '<script src="humo.js"></script>');
+
        // regular css in production
-      $this->set('css', '<link href="style.css" rel="stylesheet">');
+      $this->set('css', '<link href="index.css" rel="stylesheet">');
+      $this->set('csshumo', '<link href="humo.css" rel="stylesheet">');
+
     }
     $this->createViewVarWithContent();
     $this->renderInLayout();
