@@ -3,8 +3,7 @@ require('./js/lib/particles.min.js');
 require('./js/app.js');
 require('./js/lib/stats');
 import Parallax from 'parallax-js';
-import ScrollMagic from 'ScrollMagic/scrollmagic/uncompressed/ScrollMagic';
-import 'ScrollMagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
+import ScrollMagic from 'scrollmagic';
 
 
 {
