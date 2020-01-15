@@ -28,7 +28,7 @@
 
   .choice__oasis {
     border-right: 2px solid var(--colorSecondary);
-    background-image: url(../assets/images/bril.png);
+    background-image: url(../../assets/images/bril.png);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position-y: 5rem;
@@ -41,7 +41,7 @@
   }
 
   .choice__realWorld {
-    background-image: url(../assets/images/the_real.png);
+    background-image: url(../../assets/images/the_real.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: 30rem;
