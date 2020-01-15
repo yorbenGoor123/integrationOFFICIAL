@@ -13,10 +13,15 @@ if (file_exists("../.env")) {
 
 $routes = array(
   'home' => array(
-    'controller' => 'Longread',
-    'action' => 'index'
+    'controller' => 'Humo',
+    'action' => 'index',
+  ),
+
+  'longread' => array(
+    'controller' => 'Humo',
+    'action' => 'longread',
   )
-);
+  );
 
 if(empty($_GET['page'])) {
   $_GET['page'] = 'home';

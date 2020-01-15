@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php if (!empty($_GET['page'])){
+  if ($_GET['page'] == 'longread'){
+  ?>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -74,14 +77,8 @@
         }
       ?>
 
-
-
-
-
-
     <?php echo $content;?>
 
-    <?php echo $js; ?>
 
     <footer class="footer">
         <img class="presented__humo__footer" src="assets/images/presented.svg" alt="">
@@ -94,5 +91,29 @@
             </div>
     </footer>
 
+    <?php echo $js; ?>
   </body>
 </html>
+<?php }
+}?>
+
+<?php if (!empty($_GET['page'])){
+  if ($_GET['page'] == 'home'){
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Humo</title>
+
+</head>
+<body>
+ <?php echo $content;?>
+</body>
+</html>
+
+  <?php }
+  } ?>
