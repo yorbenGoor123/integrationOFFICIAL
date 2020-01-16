@@ -7,6 +7,10 @@
   left: 0;
   z-index: 1;
   user-select: none;
+
+  @media (--only-large-screen) {
+    display: none;
+  }
 }
 
 #menuToggle input
@@ -96,7 +100,7 @@
   position: absolute;
   width: 100vw;
   left: -2rem;
-  top: 3rem;
+  top: 4rem;
 
   background: white;
   list-style-type: none;
@@ -135,5 +139,48 @@
   font-size: 5rem;
   font-size: 2.3rem;
   border-bottom: 1px solid var(--colorMain);
+
+}
+
+.menu__button__basket__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item__choice {
+  margin: var(--spacerBig);
+}
+
+.menu__item__button__link {
+  text-decoration: none;
+  font-weight: var(--fontWeightBold);
+  text-transform: uppercase;
+  border: 3px solid var(--colorMain);
+  color: var(--colorMain);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  transition: .3s ease-in-out;
+}
+
+.menu__item__button__link:hover {
+  background-color: var(--colorMain);
+  color: white;
+}
+
+.menu__items__desktop__part {
+  display: none;
+}
+
+@media (--only-large-screen) {
+
+  .menu__items__desktop__part {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+  }
 
 }

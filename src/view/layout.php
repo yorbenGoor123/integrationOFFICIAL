@@ -133,18 +133,32 @@
       <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Muziek</li></a>
       <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Boeken</li></a>
 
-      <li class="menu__item__button">
-        <a href="">Producten</a>
+      <div class="menu__button__basket__wrapper">
+      <li class="menu__item__button menu__item__choice">
+        <a class=menu__item__button__link href="">Producten</a>
       </li>
 
-      <li>
-
+      <li class="menu__item__basket menu__item__choice">
+      <a href=""><img src="assets/humo/basket.svg" alt=""></a>
       </li>
+      </div>
     </ul>
   </div>
 </nav>
 
+<ul class="menu__items__desktop__part">
+  <li>Home</li>
+  <li>Actua</li>
+  <li>Humor</li>
+</ul>
+
 <h1 class="header__title__logo"> <a class="header__title__logo__link" href="">HUMO</a></h1>
+
+<ul class="menu__items__desktop__part">
+  <li>Tv/Film</li>
+  <li>Muziek</li>
+  <li>Boeken</li>
+</ul>
 
 <a class="search_button" href=""><img src="assets/humo/search__button.svg" alt="search button"></a>
 </div>
