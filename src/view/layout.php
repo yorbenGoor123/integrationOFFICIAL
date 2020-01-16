@@ -31,23 +31,19 @@
     </ul>
 
 
-    <nav role="navigation">
-  <div id="menuToggle">
+    <div id="menuToggle" class= "menuToggle">
+      <input type="checkbox" />
+      <div class="hamburger__menu__wrapper">
+      <span class="span__item"></span>
+      <span class="span__item green"></span>
+      <span class="span__item"></span>
+      </div>
 
-    <input type="checkbox" />
-
-    <span></span>
-    <span></span>
-    <span></span>
-
-    <ul id="menu">
-      <a href="#"><li>Home</li></a>
-      <a href="#"><li>About</li></a>
-      <a href="#"><li>Info</li></a>
-      <a href="#"><li>Contact</li></a>
-    </ul>
-  </div>
-</nav>
+      <ul id="menu">
+        <div class="menu__items">
+        <li class="menu__item"> <a class="menu__item__link" href="">Read my story</a></li>
+        <li class="menu__item"> <a class="menu__item__link" href="">Buy book</a></li>
+        </div>
 
         <div class="header__language">
             <a class="language language__nl" href="">Nl</a>
