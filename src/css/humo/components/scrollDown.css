@@ -43,8 +43,9 @@
   display: flex;
   justify-content: center;
   margin-top: var(--spacerBig);
+  width: 100%;
 
   @media (--only-large-screen) {
-    margin-top: -2rem;
+    justify-content: flex-start;
   }
 }

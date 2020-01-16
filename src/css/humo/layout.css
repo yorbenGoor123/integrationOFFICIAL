@@ -24,3 +24,38 @@ html {
 strong {
   font-weight: var(--fontWeightBold);
 }
+
+@media (--only-large-screen) {
+
+  .firstSection {
+    display: grid;
+    grid-template-columns: 10rem 20% 1fr 10rem;
+    grid-template-rows: 3rem 5rem 1fr 5rem;
+    grid-gap: var(--spacerBig);
+  }
+
+  .section__future {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .discount {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .section__title {
+    grid-column: 2 /4;
+    grid-row: 1;
+  }
+
+  .book__article {
+    grid-column: 3;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
