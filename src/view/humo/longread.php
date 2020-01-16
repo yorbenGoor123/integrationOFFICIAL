@@ -406,7 +406,7 @@ maar zonder succes.
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie4/light_0000s_0005_bg.png.png  100w"
+        srcset="assets/images/sectie4/light_0000s_0005_bg.png  100w"
         sizes="100vw"
         type="image/png"
       />
@@ -419,18 +419,18 @@ maar zonder succes.
 
     <picture class="image__section4__part" data-depth="0">
       <source
-        srcset="assets/images/sectie4/webp/light_0000s_0004_Layer-9.webp 100w"
+        srcset="assets/images/sectie4/webp/light_0000s_0004_Layer-1.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie4/light_0000s_0004_Layer-9.png  100w"
+        srcset="assets/images/sectie4/light_0000s_0004_Layer-1.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0004_Layer-9.png"
+        src="assets/images/sectie4/light_0000s_0004_Layer-1.png.png"
         alt="een gloeiend ei in de natuur"
       />
     </picture>
@@ -455,18 +455,18 @@ maar zonder succes.
 
     <picture class="image__section4__part" data-depth="0">
     <source
-        srcset="assets/images/sectie4/webp/light_0000s_0002_Layer-10.webp 100w"
+        srcset="assets/images/sectie4/webp/light_0000s_0002_Layer-2.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie4/light_0000s_0002_Layer-10.png  100w"
+        srcset="assets/images/sectie4/light_0000s_0002_Layer-2.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0002_Layer-10.png"
+        src="assets/images/sectie4/light_0000s_0002_Layer-2.png"
         alt="een gloeiend ei in de natuur"
       />
     </picture>
@@ -491,18 +491,18 @@ maar zonder succes.
 
     <picture class="image__section4__part" data-depth="0">
     <source
-        srcset="assets/images/sectie4/webp/light_0000s_0000_Layer-2.webp 100w"
+        srcset="assets/images/sectie4/webp/light_0000s_0000_Layer-3.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie4/light_0000s_0000_Layer-2.png  100w"
+        srcset="src/assets/images/sectie4/light_0000s_0000_Layer-3.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0000_Layer-2.png"
+        src="assets/images/sectie4/light_0000s_0000_Layer-3.png"
         alt="een gloeiend ei in de natuur"
       />
     </picture>
