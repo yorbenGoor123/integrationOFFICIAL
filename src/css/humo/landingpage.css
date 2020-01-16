@@ -66,3 +66,47 @@
 .button__previousAndNext, .previous__next__buttons {
   margin: var(--spacerSmall);
 }
+
+.book__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info__item {
+  margin: var(--spacerSmall);
+  line-height: 1.8rem;
+}
+
+.book__title {
+  font-size: var(--fontBig);
+  font-weight: var(--fontWeightBold);
+}
+
+.practicall__info {
+  color: var(--colorMain);
+}
+
+.practicall__info__price {
+  font-weight: var(--fontWeightBold);
+  font-size: 3rem;
+  margin-right: var(--spacerSmall);
+}
+
+.landingpage__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input__number {
+  width: 1.5rem;
+  height: 2rem;
+  border: 2px solid var(--colorMain);
+}
+
+.label__quantity {
+  font-size: 1.5rem;
+  font-weight: var(--fontWeightBold);
+}

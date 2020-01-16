@@ -149,7 +149,7 @@
 <ul class="menu__items__desktop__part">
   <li class="menu__item__link__hamburger menu__item__desktop"> <a class="menu__item__desktop__link menu__item__desktop__link--active" href="">Home</a></li>
   <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Actua</a></li>
-  <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Actua</a></li>
+  <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Humor</a></li>
 </ul>
 
 <h1 class="header__title__logo"> <a class="header__title__logo__link" href="">HUMO</a></h1>
