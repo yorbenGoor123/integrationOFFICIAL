@@ -179,6 +179,10 @@
   align-items: center;
 }
 
+.menu__button__basket__wrapper__desktop {
+  display: none;
+}
+
 @media (--only-large-screen) {
 
   .menu__items__desktop__part {
@@ -207,6 +211,12 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .menu__button__basket__wrapper__desktop {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: var(--spacerBig);
   }
 
 }

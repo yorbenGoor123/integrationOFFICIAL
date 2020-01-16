@@ -162,8 +162,19 @@
 
 <a class="search_button" href=""><img src="assets/humo/search__button.svg" alt="search button"></a>
 </div>
-
 </header>
+
+<ul>
+<div class="menu__button__basket__wrapper menu__button__basket__wrapper__desktop">
+      <li class="menu__item__button menu__item__choice">
+        <a class=menu__item__button__link href="">Producten</a>
+      </li>
+
+      <li class="menu__item__basket menu__item__choice">
+      <a href=""><img src="assets/humo/basket.svg" alt=""></a>
+      </li>
+      </div>
+    </ul>
  <?php echo $content;?>
 
  <?php echo $humojs; ?>
