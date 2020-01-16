@@ -65,13 +65,13 @@
         type="image/webp"
       />
       <source
-        srcset="src/assets/images/headset/oasis_0000s_0004_Layer-2.png    100w"
+        srcset="assets/images/headset/oasis_0000s_0004_Layer-2.png    100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="headset__image glow"
-        src="src/assets/images/headset/oasis_0000s_0004_Layer-2.png"
+        src="assets/images/headset/oasis_0000s_0004_Layer-2.png"
         alt="virtual reality glasses"
       />
     </picture>
@@ -496,7 +496,7 @@ maar zonder succes.
         type="image/webp"
       />
       <source
-        srcset="src/assets/images/sectie4/light_0000s_0000_Layer-3.png  100w"
+        srcset="assets/images/sectie4/light_0000s_0000_Layer-3.png  100w"
         sizes="100vw"
         type="image/png"
       />
@@ -518,18 +518,18 @@ maar zonder succes.
 
   <picture class="key__images">
     <source
-        srcset="assets/images/keys/webp/copper key.webp 100w"
+        srcset="assets/images/keys/webp/copper_key.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/keys/copper key.png  100w"
+        srcset="assets/images/keys/copper_key.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/keys/copper key.png"
+        src="assets/images/keys/copper_key.png"
         alt="de koperen key"
       />
     </picture>
@@ -539,18 +539,18 @@ maar zonder succes.
   <p class="key__text jade">Jade key</p>
   <picture class="key__images">
     <source
-        srcset="assets/images/keys/webp/jade key.webp 100w"
+        srcset="assets/images/keys/webp/jade_key.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/keys/jade key.png  100w"
+        srcset="assets/images/keys/jade_key.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/keys/jade key.png"
+        src="assets/images/keys/jade_key.png"
         alt="de jade key"
       />
     </picture>
@@ -561,18 +561,18 @@ maar zonder succes.
 
   <picture class="key__images">
     <source
-        srcset="assets/images/keys/webp/crystal key.webp 100w"
+        srcset="assets/images/keys/webp/crystal_key.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/keys/crystal key.png  100w"
+        srcset="assets/images/keys/crystal_key.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/keys/crystal key.png"
+        src="assets/images/keys/crystal_key.png"
         alt="de crystall key"
       />
     </picture>
@@ -648,7 +648,7 @@ maar zonder succes.
       />
       <img
         class="image__section2__part"
-        src="src/assets/images/sectie6/dreamworld_0000s_0003_Group-2.png"
+        src="assets/images/sectie6/dreamworld_0000s_0003_Group-2.png"
         alt="De drie sleutels naast elkaar"
       />
     </picture>

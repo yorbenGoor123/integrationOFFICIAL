@@ -33,7 +33,7 @@ import ScrollMagic from 'scrollmagic';
         triggerHook: 0.9,
       })
         .setClassToggle(revealElements[i], 'visible') // add class toggle
-        .addIndicators({name: `digit ${ i + 1}`})
+
         .addTo(controller);
     }
   };
@@ -50,7 +50,7 @@ import ScrollMagic from 'scrollmagic';
         triggerHook: 0.9,
       })
         .setClassToggle(revealElements[i], 'visible__right') // add class toggle
-        .addIndicators({name: `digit__right ${ i + 1}`})
+
         .addTo(controller);
     }
   };
