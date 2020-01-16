@@ -147,17 +147,17 @@
 </nav>
 
 <ul class="menu__items__desktop__part">
-  <li>Home</li>
-  <li>Actua</li>
-  <li>Humor</li>
+  <li class="menu__item__link__hamburger menu__item__desktop"> <a class="menu__item__desktop__link menu__item__desktop__link--active" href="">Home</a></li>
+  <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Actua</a></li>
+  <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Actua</a></li>
 </ul>
 
 <h1 class="header__title__logo"> <a class="header__title__logo__link" href="">HUMO</a></h1>
 
 <ul class="menu__items__desktop__part">
-  <li>Tv/Film</li>
-  <li>Muziek</li>
-  <li>Boeken</li>
+  <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Tv/Film</a></li>
+  <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Muziek</a></li>
+  <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Boeken</a></li>
 </ul>
 
 <a class="search_button" href=""><img src="assets/humo/search__button.svg" alt="search button"></a>
