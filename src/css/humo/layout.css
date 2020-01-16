@@ -15,3 +15,12 @@
   color: white;
   text-transform: uppercase;
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+strong {
+  font-weight: var(--fontWeightBold);
+}
