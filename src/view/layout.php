@@ -177,6 +177,10 @@
     </ul>
  <?php echo $content;?>
 
+<footer class="footer">
+    <p class="footer__logo">Humo</p>
+</footer>
+
  <?php echo $humojs; ?>
 </body>
 </html>

@@ -1,0 +1,14 @@
+.section__future {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section__future__title {
+  color: var(--colorMain);
+  font-weight: var(--fontWeightBold);
+  font-size: var(--fontTitle);
+  margin-bottom: var(--spacerSmall);
+  margin-top: var(--spacerTop);
+}

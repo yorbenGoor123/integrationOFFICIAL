@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorMain);
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__logo {
+  font-size: 3rem;
+  font-weight: var(--fontWeightBold);
+  color: white;
+  text-transform: uppercase;
+}
