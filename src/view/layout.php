@@ -31,19 +31,23 @@
     </ul>
 
 
-    <div id="menuToggle" class= "menuToggle">
-      <input type="checkbox" />
-      <div class="hamburger__menu__wrapper">
-      <span class="span__item"></span>
-      <span class="span__item green"></span>
-      <span class="span__item"></span>
-      </div>
+    <nav role="navigation">
+  <div id="menuToggle">
 
-      <ul id="menu">
-        <div class="menu__items">
-        <li class="menu__item"> <a class="menu__item__link" href="">Read my story</a></li>
-        <li class="menu__item"> <a class="menu__item__link" href="">Buy book</a></li>
-        </div>
+    <input type="checkbox" />
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <ul id="menu">
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>About</li></a>
+      <a href="#"><li>Info</li></a>
+      <a href="#"><li>Contact</li></a>
+    </ul>
+  </div>
+</nav>
 
         <div class="header__language">
             <a class="language language__nl" href="">Nl</a>
@@ -108,10 +112,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Humo</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ape8ojm.css">
   <?php echo $csshumo;?>
 
 </head>
 <body>
+<header class="header">
+
+<div class="navigation__wrapper">
+<nav role="navigation">
+  <div id="menuToggle">
+
+    <input type="checkbox" />
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <ul id="menu">
+      <a class="menu__item__link__hamburger menu__item__link__hamburger--active" href="#"><li class="menu__item font-size-big-active">Home</li></a>
+      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Actua</li></a>
+      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Humor</li></a>
+      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Tv/film</li></a>
+      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Muziek</li></a>
+      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Boeken</li></a>
+
+      <li class="menu__item__button">
+        <a href="">Producten</a>
+      </li>
+
+      <li>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<h1 class="header__title__logo"> <a class="header__title__logo__link" href="">HUMO</a></h1>
+
+<a class="search_button" href=""><img src="assets/humo/search__button.svg" alt="search button"></a>
+</div>
+
+</header>
  <?php echo $content;?>
 
  <?php echo $humojs; ?>

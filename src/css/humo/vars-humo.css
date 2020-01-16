@@ -1,0 +1,25 @@
+:root {
+  --colorLightest: white;
+  --colorText: white;
+  --colorTitles: #dc0017;
+  --colorMain: #dc0017;
+  --colorSecondary: white;
+  --spacerSmall: .75rem; /* 12px */
+  --spacerRegular: 1rem; /* 16px */
+  --spacerBig: 3rem; /* 30px */
+  --fontSmall: .75rem; /* 12px */
+  --fontRegular: 1rem; /* 18px */
+  --fontMedium: 1.25rem; /* 20px */
+  --fontMediumBig: 1.5rem;
+  --fontBig: 1.75rem; /* 28px */
+  --fontTitle: 3.5rem;
+  --buttonFont: 1.3rem;
+  --font: news-gothic-std, sans-serif;
+  --fontWeightLight: 200;
+  --fontWeightNormal: 400;
+  --fontWeightBold: 700;
+}
+
+@custom-media --only-small-screen (width <= 465px);
+@custom-media --only-medium-screen (width >= 768px);
+@custom-media --only-large-screen (width >= 1100px);
