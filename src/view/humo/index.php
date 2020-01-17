@@ -14,7 +14,7 @@
   </article>
 
   <article class="discount">
-  <p class="discount__paragraph__strong">KRIJG 60% KORTING BIJ DEZEAANKOOP</p>
+  <p class="discount__paragraph__strong">KRIJG 60% KORTING BIJ DEZE AANKOOP</p>
   <p class="discount__paragraph">Vind de kortingscode op de flap van humo betreffende deze week</p>
   </article>
 
@@ -66,6 +66,56 @@
 </div>
   </article>
 
+  </section>
+
+
+  <section class="secondSection">
+    <h2 class="section__title section__title__products">producten</h2>
+
+
+    <div class="flexbox__wrapper">
+    <article class="product__images__overview">
+      <div class="product__image__overview__container">
+      <p class="product__name__overview">Lees accesoires</p>
+      <img class="product__image__overview" src="assets/humo/leesacce.svg" alt="lees accesoires">
+      <a class="buttonHumoTrans" href="">Koop mij</a>
+      </div>
+      <div class="product__image__overview__container">
+      <p class="product__name__overview">Boeken</p>
+      <img class="product__image__overview" src="assets/humo/boeken.svg" alt="boeken">
+      <a class="buttonHumoTrans" href="">Koop mij</a>
+      </div>
+      <div class="product__image__overview__container">
+      <p class="product__name__overview">Eigen ontwerp</p>
+      <img class="product__image__overview" src="assets/humo/eigen ontwerp.svg" alt="eigen ontwerp">
+      <a class="buttonHumoTrans" href="">Koop mij</a>
+      </div>
+      <div class="product__image__overview__container">
+      <p class="product__name__overview">Humo abbonement</p>
+      <img class="product__image__overview" src="assets/humo/humo_abbo.svg" alt="humo abbonement">
+      <a class="buttonHumoTrans" href="">Koop mij</a>
+      </div>
+    </article>
+
+    <article class="product__information__overview">
+      <h3 class="product__information__overview__title section__future__title">Blader tussen onze producten</h3>
+      <p class="product__information__overview__paragraph section__future__paragraph">Lorem Ipsum is slechts een
+          proeftekst uit het drukkerij- en
+          zetterijwezen. Lorem Ipsum is de
+          standaard proeftekst in deze bedrijfstak
+          sinds de 16e eeuw</p>
+    <a class="buttonHumoRed__link" href="">Alle producten</a>
+      </article>
+      </div>
+  </section>
+
+  <section>
+    <h2 class="section__title section__title__products">Abbonement</h2>
+
+    <aside>
+      <p>Lorem Ipsum is slechts een proeftekst
+      uit het drukkerij- en zetterijwezen. </p>
+    </aside>
   </section>
 
 </main>

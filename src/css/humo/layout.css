@@ -25,6 +25,8 @@ strong {
   font-weight: var(--fontWeightBold);
 }
 
+
+
 @media (--only-large-screen) {
 
   .firstSection {
@@ -63,4 +65,18 @@ strong {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .section__title__products {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 1rem;
+  }
+
+  .flexbox__wrapper {
+    display: flex;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    align-items: center;
+  }
+
 }

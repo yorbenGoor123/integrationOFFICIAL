@@ -134,3 +134,40 @@
   font-size: 1.5rem;
   font-weight: var(--fontWeightBold);
 }
+
+/* tweede sectie landing page */
+
+.secondSection {
+  margin-bottom: 5rem;
+}
+
+.product__images__overview {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.product__image__overview__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--colorMain);
+  margin: var(--spacerBig);
+}
+
+.product__information__overview {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product__information__overview__paragraph, .product__information__overview__title {
+  text-align: center;
+}
+
+.product__name__overview {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--colorMain);
+  font-weight: var(--fontWeightBold);
+}
