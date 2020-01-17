@@ -3,46 +3,50 @@
           if($_GET['pageFlow'] == "personal info"){ ?>
 
 
-<section>
+<section class="section__personalInfo">
+<div class="personalInfo__wrapper">
+<h2 class="checkout__title">Informatie</h2>
+<p class="checkout__required">alle velden zijn verplicht*</p>
 
-<h2>Informatie</h2>
-<p>alle velden zijn verplicht*</p>
-
-<form method="post" action="index.php?page=checkout&pageFlow=levering" class="form__filter">
+<form class="form__personalInfo" method="post" action="index.php?page=checkout&pageFlow=levering">
 <input type="hidden" name="page" value="checkout">
 <input type="hidden" name="pageFlow" value="levering">
 
-<div>
-<label for="name">Naam:</label>
-<input name="name" type="text" required>
+<div class="input__container">
+<label class="label" for="name">Naam:</label>
+<input class="input input__field" name="name" type="text" placeholder="Bijv: Yorben Goor" required>
 </div>
 
-<div>
-<label for="email">E-mail:</label>
-<input name="email" type="e-mail" required>
+<div class="input__container">
+<label class="label" for="email">E-mail:</label>
+<input class="input input__field" name="email" type="e-mail" placeholder="Bijv: Example@gmail.com" required>
 </div>
 
-<div>
-<label for="Adress">Adress:</label>
-<input name="email" type="e-mail" required>
+<div class="input__container">
+<label class="label" for="Adress">Adress:</label>
+<input class="input input__field" name="email" type="e-mail" placeholder="Bijv: Example-street 23" required>
 </div>
 
 
-<div>
-<label for="Gemeente">Gemeente:</label>
-<input name="gemeente" type="text" required>
+<div class="input__container">
+<label class="label" for="Gemeente">Gemeente:</label>
+<input class="input input__field" name="gemeente" type="text" placeholder="Bijv: Zottegem" required>
 </div>
 
-<div>
-<label for="Gemeente">Postcode:</label>
-<input name="gemeente" type="text" required>
+<div class="input__container">
+<label class="label" for="Gemeente">Postcode:</label>
+<input class="input input__field input__postcode" name="gemeente" type="number" placeholder="8949" required>
 </div>
 
-<div>
-<label for="Gemeente">Telefoon Nummer::</label>
-<input name="gemeente" type="text" required>
+<div class="input__container">
+<label class="label" for="Gemeente">Telefoon Nummer:</label>
+<input class="input input__field" name="gemeente" type="number" placeholder="+32" required>
 </div>
-<input name="submit" type="submit" value="naar levering">
+</div>
+
+<div class="kassa__button">
+<input class="buttonHumoRed__link" name="submit" type="submit" value="naar levering">
+</div>
 
 
 </form>

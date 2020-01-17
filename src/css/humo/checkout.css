@@ -1,0 +1,97 @@
+.checkout__title {
+  font-size: var(--fontTitle);
+  font-weight: var(--fontWeightBold);
+  display: flex;
+  justify-content: center;
+}
+
+.checkout__required {
+  color: var(--colorMain);
+  margin-top: var(--spacerSmall);
+  display: flex;
+  justify-content: center;
+}
+
+.input__container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.levering__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.kassa__button {
+  margin-top: 2rem;
+}
+
+.input__field {
+  width: 25rem;
+  height: 2rem;
+  background-color: #ff7272;
+  color: white;
+  font-size: 1.4rem;
+  transition: background-color .2s ease-in-out;
+  border: 2px solid var(--colorMain);
+}
+
+.input__field::placeholder {
+  color: white;
+  position: relative;
+  left: 1rem;
+}
+
+.label {
+  font-size: 1.4rem;
+  width: 25rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+@media (--only-large-screen) {
+
+  .input__container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+
+  .levering__button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  .input__field:focus {
+    background-color: var(--colorMain);
+    border: 2px solid black;
+  }
+
+  .input__postcode {
+    width: 8rem;
+  }
+
+  .personalInfo__wrapper {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .checkout__title {
+    display: block;
+  }
+
+  .checkout__required {
+    display: block;
+  }
+}
