@@ -8,6 +8,11 @@
   font-weight: var(--fontWeightBold);
   color: white;
 
+  @media (--only-large-screen) {
+    margin: 0;
+    margin-top: 2rem;
+  }
+
 }
 
 .input__Ebook {
@@ -15,5 +20,3 @@
   border: 2px solid var(--colorMain);
   color: var(--colorMain);
 }
-
-

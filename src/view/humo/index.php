@@ -9,6 +9,7 @@
 
     <div class="center">
       <a href=""><div class="down"></div></a>
+      <p class="down__alle">alle producten</p>
     </div>
   </article>
 
@@ -20,7 +21,7 @@
   <h2 class="section__title">Boeken</h2>
 
   <article class="book__article">
-    
+
   <div class="book__article__image__wrapper">
   <img src="assets/humo/book.svg" alt="book article name">
 
@@ -57,8 +58,10 @@
   <input class="input input__number" type="number">
   </div>
 
+  <div class="button__wrapper">
   <input class="input input__button input__BuyNow" type="submit" value="nu kopen">
   <input class="input input__button input__Ebook" type="submit" value="Koop e-book €1.99">
+  </div>
 </form>
 </div>
   </article>

@@ -50,6 +50,11 @@ strong {
   .section__title {
     grid-column: 2 /4;
     grid-row: 1;
+
+    @media (--only-large-screen) {
+      border-bottom: 3px solid black;
+      margin-bottom: 0;
+    }
   }
 
   .book__article {

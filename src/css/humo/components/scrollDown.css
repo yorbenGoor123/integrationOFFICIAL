@@ -49,3 +49,12 @@
     justify-content: flex-start;
   }
 }
+
+.down__alle {
+  display: flex;
+  align-items: center;
+  margin-left: var(--spacerBig);
+  font-weight: var(--fontWeightLight);
+  text-transform: uppercase;
+  color: var(--colorMain);
+}
