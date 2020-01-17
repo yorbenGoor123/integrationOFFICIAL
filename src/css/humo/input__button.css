@@ -42,3 +42,11 @@
   font-weight: var(--fontWeightBold);
   margin-top: var(--spacerSmall);
 }
+
+.button__abbo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 2rem;
+  width: 16rem;
+}

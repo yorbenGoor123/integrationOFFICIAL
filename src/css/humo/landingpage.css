@@ -171,3 +171,60 @@
   color: var(--colorMain);
   font-weight: var(--fontWeightBold);
 }
+
+@media (--only-large-screen) {
+
+  .thirdSection {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+.abbonement__paragraph__container {
+  background-color: var(--colorMain);
+}
+
+.abbonement__paragraph {
+  color: white;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.section__title__abbo {
+  padding-bottom: 1rem;
+}
+
+.overview__humo__abbo {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.humo__abbo__price__overview {
+  color: white;
+  font-size: 2rem;
+}
+
+.humo__overview__termijn {
+  color: var(--colorMain);
+  font-size: var(--fontBig);
+  margin-bottom: .3rem;
+  font-weight: var(--fontWeightBold);
+}
+
+.abbo__item {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.abbo__item {
+  margin: var(--spacerBig);
+}

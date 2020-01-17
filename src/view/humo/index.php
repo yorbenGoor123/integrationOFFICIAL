@@ -109,13 +109,32 @@
       </div>
   </section>
 
-  <section>
-    <h2 class="section__title section__title__products">Abbonement</h2>
+  <section class="thirdSection">
+    <h2 class="section__title section__title__abbo">Abbonement</h2>
 
-    <aside>
-      <p>Lorem Ipsum is slechts een proeftekst
+    <aside class="abbonement__paragraph__container">
+      <p class= "abbonement__paragraph">Lorem Ipsum is slechts een proeftekst
       uit het drukkerij- en zetterijwezen. </p>
     </aside>
+
+    <article class="overview__humo__abbo">
+      <div class="abbo__item">
+      <p class="humo__overview__termijn">1 jaar</p>
+      <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 1">
+      <a class="buttonHumoRed__link button__abbo" href="">Nu kopen €17</a>
+      </div class="abbo__item">
+      <div class="abbo__item">
+      <p class="humo__overview__termijn">2 jaar</p>
+      <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 2">
+      <a class="buttonHumoRed__link button__abbo" href="">Nu kopen €17</a>
+      </div>
+      <div class="abbo__item">
+      <p class="humo__overview__termijn">3 jaar</p>
+      <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 3">
+      <a class="buttonHumoRed__link button__abbo" href="">Nu kopen €17</a>
+      </div>
+    </article>
   </section>
+
 
 </main>
