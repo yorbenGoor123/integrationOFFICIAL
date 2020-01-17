@@ -30,4 +30,8 @@ class HumoController extends Controller {
 
     }
 
+  public function checkout() {
+
+    }
+
 }

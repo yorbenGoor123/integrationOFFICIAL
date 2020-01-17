@@ -33,51 +33,7 @@
         <div class="product__item__container">
           <span class="book__title info">Title</span>
           <span class="book__author info">-Author-</span>
-          <img src="assets/humo/book.svg" alt="book_name">
-          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen -- €15</a>
-          <span class="delivery__date">2-3 dagen</span>
-        </div>
-      </li>
-
-
-      <li class="product__item">
-        <div class="product__item__container">
-          <span class="book__title info">Title</span>
-          <span class="book__author info">-Author-</span>
-          <img src="assets/humo/book.svg" alt="book_name">
-          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen -- €15</a>
-          <span class="delivery__date">2-3 dagen</span>
-        </div>
-      </li>
-
-
-      <li class="product__item">
-        <div class="product__item__container">
-          <span class="book__title info">Title</span>
-          <span class="book__author info">-Author-</span>
-          <img src="assets/humo/book.svg" alt="book_name">
-          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen -- €15</a>
-          <span class="delivery__date">2-3 dagen</span>
-        </div>
-      </li>
-
-
-      <li class="product__item">
-        <div class="product__item__container">
-          <span class="book__title info">Title</span>
-          <span class="book__author info">-Author-</span>
-          <img src="assets/humo/book.svg" alt="book_name">
-          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen -- €15</a>
-          <span class="delivery__date">2-3 dagen</span>
-        </div>
-      </li>
-
-
-      <li class="product__item">
-        <div class="product__item__container">
-          <span class="book__title info">Title</span>
-          <span class="book__author info">-Author-</span>
-          <img src="assets/humo/book.svg" alt="book_name">
+         <a href="index.php?page=detail-page"><img src="assets/humo/book.svg" alt="book_name"> </a>
           <a class="buttonHumoRed__link productPage__button" href="">Nu kopen -- €15</a>
           <span class="delivery__date">2-3 dagen</span>
         </div>

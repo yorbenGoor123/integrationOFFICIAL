@@ -1,5 +1,5 @@
 <main>
-<form action="">
+<form method="post" action="index.php?page=checkout&pageFlow=personal+info" class="form__filter">
 <div class="basket__wrapper">
 <section class="section__basket">
   <h2 class="section__title__basket">Winkelmand</h2>
@@ -80,8 +80,13 @@
 </div>
 
 <div class="kassa__button">
-<a class="buttonHumoRed__link" href="">Naar de kassa</a>
-</div>
 
+<input type="hidden" name="page" value="checkout">
+
+
+<input class="buttonHumoRed__link" type="submit" value="naar de kassa">
+
+
+</div>
 </form>
 </main>

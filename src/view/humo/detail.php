@@ -1,7 +1,7 @@
 <main>
 <article class="book__article">
 
- <a class="position__absolute" href=""> <img src="assets/humo/arrow__back.svg" alt="arrow__back"></a>
+ <a class="position__absolute" href="index.php?page=product "> <img src="assets/humo/arrow__back.svg" alt="arrow__back"></a>
 
   <div class="book__article__image__wrapper">
   <img src="assets/humo/book.svg" alt="book article name">
