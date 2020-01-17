@@ -20,6 +20,11 @@ $routes = array(
   'longread' => array(
     'controller' => 'Humo',
     'action' => 'longread',
+  ),
+
+  'product' => array(
+    'controller' => 'Humo',
+    'action' => 'product',
   )
   );
 

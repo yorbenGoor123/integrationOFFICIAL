@@ -98,7 +98,7 @@
 }?>
 
 <?php if (!empty($_GET['page'])){
-  if ($_GET['page'] == 'home'){
+  if ($_GET['page'] != 'longread'){
 ?>
 
 <!DOCTYPE html>

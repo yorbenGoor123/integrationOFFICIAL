@@ -18,4 +18,8 @@ class HumoController extends Controller {
 
     }
 
+  public function product() {
+
+    }
+
 }

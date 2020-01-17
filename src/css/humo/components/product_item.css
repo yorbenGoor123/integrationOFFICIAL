@@ -1,0 +1,25 @@
+.product__item__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info {
+  margin: var(--spacerSmall);
+}
+
+.delivery__date {
+  color: var(--colorMain);
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.product__item {
+  margin: 5rem;
+}
