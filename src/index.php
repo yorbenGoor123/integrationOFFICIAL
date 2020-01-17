@@ -30,7 +30,13 @@ $routes = array(
   'basket' => array(
     'controller' => 'Humo',
     'action' => 'basket',
+  ),
+
+  'detail-page' => array(
+    'controller' => 'Humo',
+    'action' => 'detail',
   )
+
   );
 
 if(empty($_GET['page'])) {

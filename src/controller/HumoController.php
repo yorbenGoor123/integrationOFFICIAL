@@ -26,4 +26,8 @@ class HumoController extends Controller {
 
     }
 
+  public function detail() {
+
+    }
+
 }
