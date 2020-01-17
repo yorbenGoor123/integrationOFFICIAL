@@ -8,7 +8,7 @@ class HumoController extends Controller {
 
   function __construct() {
 
-  }
+    }
 
   public function index() {
 
@@ -19,6 +19,10 @@ class HumoController extends Controller {
     }
 
   public function product() {
+
+    }
+
+  public function basket() {
 
     }
 

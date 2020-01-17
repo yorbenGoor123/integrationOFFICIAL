@@ -135,7 +135,7 @@
 
       <div class="menu__button__basket__wrapper">
       <li class="menu__item__button menu__item__choice">
-        <a class=menu__item__button__link href="">Producten</a>
+        <a class=menu__item__button__link href="index.php?page=product">Producten</a>
       </li>
 
       <li class="menu__item__basket menu__item__choice">
@@ -167,7 +167,7 @@
 <ul>
 <div class="menu__button__basket__wrapper menu__button__basket__wrapper__desktop">
       <li class="menu__item__button menu__item__choice">
-        <a class=menu__item__button__link href="">Producten</a>
+        <a class=menu__item__button__link href="index.php?page=product">Producten</a>
       </li>
 
       <li class="menu__item__basket menu__item__choice">

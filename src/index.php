@@ -25,6 +25,11 @@ $routes = array(
   'product' => array(
     'controller' => 'Humo',
     'action' => 'product',
+  ),
+
+  'basket' => array(
+    'controller' => 'Humo',
+    'action' => 'basket',
   )
   );
 

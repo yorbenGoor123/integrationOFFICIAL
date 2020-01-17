@@ -1,0 +1,59 @@
+
+@media (--only-large-screen) {
+
+  .section__basket {
+    margin-left: 5rem;
+    width: 70%;
+  }
+
+  .section__title__basket {
+    color: var(--colorMain);
+    font-size: var(--fontTitle);
+    font-weight: var(--fontWeightBold);
+    margin-bottom: var(--spacerSmall);
+  }
+
+  .basket__items__container {
+    height: 20rem;
+    box-shadow: 0 5px 15px 0 #a0a0a0;
+  }
+
+  .basket__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .summary {
+    width: 30%;
+    margin-right: 5rem;
+    background-color: #fdd6d6;
+    margin-top: 3rem;
+    height: 18rem;
+  }
+
+  .title__summary {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: var(--fontWeightBold);
+    margin: 2rem;
+  }
+
+  .basket__costs__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem ;
+
+  }
+
+  .total {
+    font-size: 1.3rem;
+    font-weight: var(--fontWeightBold);
+  }
+
+  .kassa__button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
+    margin-top: 5rem;
+  }
+}
