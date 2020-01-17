@@ -51,3 +51,9 @@
   width: 16rem;
 }
 
+.remove__button {
+  border: none;
+  text-decoration: underline;
+  color: var(--colorMain);
+  font-size: 1.3rem;
+}

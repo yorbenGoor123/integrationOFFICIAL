@@ -126,7 +126,7 @@
     <span></span>
 
     <ul id="menu">
-      <a class="menu__item__link__hamburger menu__item__link__hamburger--active" href="#"><li class="menu__item font-size-big-active">Home</li></a>
+      <a class="menu__item__link__hamburger menu__item__link__hamburger--active" href=""><li class="menu__item font-size-big-active">Home</li></a>
       <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Actua</li></a>
       <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Humor</li></a>
       <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Tv/film</li></a>
@@ -139,7 +139,7 @@
       </li>
 
       <li class="menu__item__basket menu__item__choice">
-      <a href=""><img src="assets/humo/basket.svg" alt=""></a>
+      <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt=""></a>
       </li>
       </div>
     </ul>
@@ -152,7 +152,7 @@
   <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Humor</a></li>
 </ul>
 
-<h1 class="header__title__logo"> <a class="header__title__logo__link" href="">HUMO</a></h1>
+<h1 class="header__title__logo"> <a class="header__title__logo__link" href="index.php">HUMO</a></h1>
 
 <ul class="menu__items__desktop__part">
   <li class="menu__item__link__hamburger"> <a class="menu__item__desktop__link" href="">Tv/Film</a></li>
@@ -171,7 +171,7 @@
       </li>
 
       <li class="menu__item__basket menu__item__choice">
-      <a href=""><img src="assets/humo/basket.svg" alt=""></a>
+      <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt=""></a>
       </li>
       </div>
     </ul>
