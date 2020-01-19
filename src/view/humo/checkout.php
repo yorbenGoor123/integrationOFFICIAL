@@ -59,8 +59,27 @@
 <?php if(!empty($_GET["pageFlow"])) {
           if($_GET['pageFlow'] == "levering"){ ?>
 
-<section>
-<h1>hello world</h1>
+<section class="section__personalInfo">
+<h2 class="checkout__title">Levering opties</h2>
+<div class="container">
+  <div class="radio">
+    <input id="radio-1" name="radio" type="radio" checked>
+    <label for="radio-1" class="radio-label">Lever optie 1</label>
+  </div>
+
+  <div class="radio">
+    <input id="radio-2" name="radio" type="radio">
+    <label  for="radio-2" class="radio-label">Lever optie 2</label>
+  </div>
+
+  <div class="radio">
+    <input id="radio-2" name="radio" type="radio">
+    <label  for="radio-2" class="radio-label">Lever optie 3</label>
+  </div>
+
+</div>
+</div>
+
 </section>
 
 

@@ -60,7 +60,7 @@
 
   <div class="button__wrapper">
   <input class="input input__button input__BuyNow" type="submit" value="nu kopen">
-  <input class="input input__button input__Ebook" type="submit" value="Koop e-book €1.99">
+  <input class="input input__button input__Ebook" type="submit" value="Lees longreader">
   </div>
 </form>
 </div>

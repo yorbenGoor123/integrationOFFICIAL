@@ -54,6 +54,17 @@
   margin-bottom: 1rem;
 }
 
+.delivery__wrapper {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
 @media (--only-large-screen) {
 
   .input__container {
