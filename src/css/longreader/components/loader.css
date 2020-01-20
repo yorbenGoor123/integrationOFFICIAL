@@ -2,7 +2,7 @@
 .obj {
   width: 6px;
   height: 40px;
-  background: white;
+  background: var(--colorSecondary);
   margin: 0 3px;
   border-radius: 10px;
   animation: loading .8s infinite;
@@ -56,7 +56,7 @@
 }
 
 .loader {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 45%;
 }

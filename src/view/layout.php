@@ -15,14 +15,14 @@
 
 <div class="loader">
         <div class="loading">
-            <div class="obj"></div>
-            <div class="obj"></div>
-            <div class="obj"></div>
-            <div class="obj"></div>
-            <div class="obj"></div>
-            <div class="obj"></div>
-            <div class="obj"></div>
-            <div class="obj"></div>
+            <div class="obj glow"></div>
+            <div class="obj glow"></div>
+            <div class="obj glow"></div>
+            <div class="obj glow"></div>
+            <div class="obj glow"></div>
+            <div class="obj glow"></div>
+            <div class="obj glow"></div>
+            <div class="obj glow"></div>
           </div>
     </div>
 
