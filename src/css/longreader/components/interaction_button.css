@@ -46,3 +46,20 @@
   color: var(--colorSecondary);
   font-weight: var(--fontWeightBold);
 }
+
+@keyframes fadeOut {
+
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+.imageFadeOut {
+  animation: fadeOut 1s ease-in-out;
+  animation-fill-mode: forwards;
+}

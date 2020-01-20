@@ -37,3 +37,7 @@
 .socialMedia__link__footer {
   margin: var(--spacerBig);
 }
+
+.title__hidden {
+  display: none;
+}

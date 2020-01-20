@@ -55,10 +55,26 @@ import ScrollMagic from 'scrollmagic';
     }
   };
 
+  const handleClickKeys = () => {
+    const $interactionKeys = document.querySelectorAll(`.InteractionKeys`);
+    const $keysContainer = document.querySelector('.keys__container');
+    $keysContainer.classList.add('imageFadeOut');
+    $interactionKeys.forEach($interactionKey => {
+      $interactionKey.classList.add('imageFadeOut');
+
+    });
+  };
+
+  const fadeOut = () => {
+    const $keys = document.querySelector(`.keys__button`);
+    $keys.addEventListener('click', handleClickKeys);
+  };
+
   const init = () => {
     parallax();
     scrollMagicProjects();
     scrollMagicProjectsRight();
+    fadeOut();
   };
 
   init();
