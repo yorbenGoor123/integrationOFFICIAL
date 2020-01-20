@@ -6,147 +6,76 @@
 
       <picture class="headset__image">
       <source
-        srcset="assets/images/headset/webp/oasis_0000s_0007_virtual-reality.webp    100w"
+        srcset="assets/images/headset/webp/oasis_0000s_0003_virtual-reality.webp    100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/headset/oasis_0000s_0007_virtual-reality.png    100w"
+        srcset="assets/images/headset/oasis_0000s_0003_virtual-reality.png    100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="headset__image"
-        src="assets/images/headset/oasis_0000s_0007_virtual-reality.png"
-        alt="virtual reality glasses"
-      />
-    </picture>
-
-    <picture class="headset__image">
-      <source
-        srcset="assets/images/headset/webp/oasis_0000s_0006_Loading-oasis....webp   100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/headset/oasis_0000s_0006_Loading-oasis....png    100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="headset__image"
-        src="assets/images/headset/oasis_0000s_0006_Loading-oasis....png"
+        src="assets/images/headset/oasis_0000s_0003_virtual-reality.png"
         alt="virtual reality glasses"
       />
     </picture>
 
     <picture class="headset__image glow">
       <source
-        srcset="assets/images/headset/webp/oasis_0000s_0005_Layer-1.webp  100w"
+        srcset="assets/images/headset/webp/oasis_0000s_0002_Group-2.webp   100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/headset/oasis_0000s_0005_Layer-1.png    100w"
+        srcset="assets/images/headset/oasis_0000s_0002_Group-2.png    100w"
         sizes="100vw"
         type="image/png"
       />
       <img
-        class="headset__image glow"
-        src="assets/images/headset/oasis_0000s_0005_Layer-1.png"
-        alt="virtual reality glasses"
-      />
-    </picture>
-
-    <picture class="headset__image glow">
-      <source
-        srcset="assets/images/headset/webp/oasis_0000s_0004_Layer-2.webp  100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/headset/oasis_0000s_0004_Layer-2.png    100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="headset__image glow"
-        src="assets/images/headset/oasis_0000s_0004_Layer-2.png"
+        class="headset__image"
+        src="assets/images/headset/oasis_0000s_0002_Group-2.png"
         alt="virtual reality glasses"
       />
     </picture>
 
     <picture class="headset__image opacity">
       <source
-        srcset="assets/images/headset/webp/oasis_0000s_0003_Layer-5.webp  100w"
+        srcset="assets/images/headset/webp/oasis_0000s_0001_Layer-5.webp  100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/headset/oasis_0000s_0003_Layer-5.png    100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="headset__image opacity"
-        src="assets/images/headset/oasis_0000s_0003_Layer-5.png"
-        alt="virtual reality glasses"
-      />
-    </picture>
-
-    <picture class="headset__image">
-      <source
-        srcset="assets/images/headset/webp/oasis_0000s_0002_Layer-3.webp  100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/headset/oasis_0000s_0002_Layer-3.png   100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="headset__image"
-        src="assets/images/headset/oasis_0000s_0002_Layer-3.png"
-        alt="virtual reality glasses"
-      />
-    </picture>
-
-    <picture class="headset__image glow">
-      <source
-        srcset="assets/images/headset/webp/oasis_0000s_0001_Layer-6.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/headset/oasis_0000s_0001_Layer-6.png   100w"
+        srcset="assets/images/headset/oasis_0000s_0001_Layer-5.png    100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="headset__image glow"
-        src="assets/images/headset/oasis_0000s_0001_Layer-6.png"
+        src="assets/images/headset/oasis_0000s_0001_Layer-5.png"
         alt="virtual reality glasses"
       />
     </picture>
 
     <picture class="headset__image">
       <source
-        srcset="assets/images/headset/webp/oasis_0000s_0000_Layer-7.webp 100w"
+        srcset="assets/images/headset/webp/oasis_0000s_0000_Group-1.webp  100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/headset/oasis_0000s_0000_Layer-7.png   100w"
+        srcset="assets/images/headset/oasis_0000s_0000_Group-1.png    100w"
         sizes="100vw"
         type="image/png"
       />
       <img
-        class="headset__image"
-        src="assets/images/headset/oasis_0000s_0000_Layer-7.png"
+        class="headset__image glow"
+        src="assets/images/headset/oasis_0000s_0000_Group-1.png"
         alt="virtual reality glasses"
       />
     </picture>
+
           </div>
             <div class="hero__text">
             <span class="green__title hero__item">Humanity</span>
@@ -198,168 +127,77 @@
 
           <div id="scene" class="background-image">
 
-    <picture class="image__section2__part">
+    <picture class="image__section2__part" data-depth="0.3">
       <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0009_sky.webp 100w"
+        srcset="assets/images/sectie2/webp/the-real-world_0000s_0003_sky.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0009_sky.png  100w"
+        srcset="assets/images/sectie2/the-real-world_0000s_0003_sky.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0009_sky.png"
+        src="assets/images/sectie2/the-real-world_0000s_0003_sky.png"
         alt="een droomwereld waar iemand zit op een paddenstoel"
       />
     </picture>
 
     <picture class="image__section2__part">
       <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0008_ground.webp 100w"
+        srcset="assets/images/sectie2/webp/the-real-world_0000s_0002_Group-2.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0008_ground.png  100w"
+        srcset="assets/images/sectie2/the-real-world_0000s_0002_Group-2.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0008_ground.png"
+        src="assets/images/sectie2/the-real-world_0000s_0002_Group-2.png"
+        alt="een droomwereld waar iemand zit op een paddenstoel"
+      />
+    </picture>
+
+    <picture class="image__section2__part" data-depth="1">
+      <source
+        srcset="assets/images/sectie2/webp/the-real-world_0000s_0001_Group-1.webp 100w"
+        sizes="100vw"
+        type="image/webp"
+      />
+      <source
+        srcset="assets/images/sectie2/the-real-world_0000s_0001_Group-1.png  100w"
+        sizes="100vw"
+        type="image/png"
+      />
+      <img
+        class="image__section2__part"
+        src="assets/images/sectie2/the-real-world_0000s_0001_Group-1.png"
         alt="een droomwereld waar iemand zit op een paddenstoel"
       />
     </picture>
 
     <picture class="image__section2__part">
       <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0007_black.webp 100w"
+        srcset="assets/images/sectie2/webp/the-real-world_0000s_0000_Group-3.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0007_black.png  100w"
+        srcset="assets/images/sectie2/the-real-world_0000s_0000_Group-3.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0007_black.png"
+        src="assets/images/sectie2/the-real-world_0000s_0000_Group-3.png"
         alt="een droomwereld waar iemand zit op een paddenstoel"
       />
     </picture>
-
-    <picture class="image__section2__part" data-depth="1">
-      <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0006_vlinder_1.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0006_vlinder_1.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0006_vlinder_1.png"
-        alt="een droomwereld waar iemand zit op een paddenstoel"
-      />
-    </picture>
-
-    <picture class="image__section2__part" data-depth="1">
-      <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0005_vlinder-3.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0005_vlinder-3.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0005_vlinder-3.png"
-        alt="een droomwereld waar iemand zit op een paddenstoel"
-      />
-    </picture>
-
-    <picture class="image__section2__part" data-depth="1">
-      <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0004_vlinder-2.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0004_vlinder-2.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0004_vlinder-2.png"
-        alt="een droomwereld waar iemand zit op een paddenstoel"
-      />
-    </picture>
-
-    <picture class="image__section2__part glow" data-depth="0">
-      <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0003_paddenstoel.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0003_paddenstoel.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0003_paddenstoel.png"
-        alt="een droomwereld waar iemand zit op een paddenstoel"
-      />
-    </picture>
-
-    <picture class="image__section2__part" data-depth="0.1">
-      <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0001_person.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0001_person.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0001_person.png"
-        alt="een droomwereld waar iemand zit op een paddenstoel"
-      />
-    </picture>
-
-    <picture class="image__section2__part" data-depth="0.1">
-      <source
-        srcset="assets/images/sectie2/webp/the-real-world_0000s_0000_lightbulb.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie2/the-real-world_0000s_0000_lightbulb.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section2__part"
-        src="assets/images/sectie2/the-real-world_0000s_0000_lightbulb.png"
-        alt="een droomwereld waar iemand zit op een paddenstoel"
-      />
-    </picture>
-
 
           </div>
 
@@ -399,113 +237,43 @@ maar zonder succes.
   <div id="scene2" class="background-image__section4">
 
 
-  <picture class="image__section4__part" data-depth="0">
+    <picture class="image__section4__part" data-depth="0.3">
       <source
-        srcset="assets/images/sectie4/webp/light_0000s_0005_bg.webp 100w"
+        srcset="assets/images/sectie4/webp/light_0000s_0001_Group-1.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie4/light_0000s_0005_bg.png  100w"
+        srcset="assets/images/sectie4/light_0000s_0001_Group-1.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0005_bg.png"
-        alt="een gloeiend ei in de natuur"
-      />
-    </picture>
-
-    <picture class="image__section4__part" data-depth="0">
-      <source
-        srcset="assets/images/sectie4/webp/light_0000s_0004_Layer-1.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie4/light_0000s_0004_Layer-1.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0004_Layer-1.png.png"
-        alt="een gloeiend ei in de natuur"
-      />
-    </picture>
-
-    <picture class="image__section4__part" data-depth="0">
-    <source
-        srcset="assets/images/sectie4/webp/light_0000s_0003_lamp.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie4/light_0000s_0003_lamp.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0003_lamp.png"
-        alt="een gloeiend ei in de natuur"
-      />
-    </picture>
-
-    <picture class="image__section4__part" data-depth="0">
-    <source
-        srcset="assets/images/sectie4/webp/light_0000s_0002_Layer-2.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie4/light_0000s_0002_Layer-2.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0002_Layer-2.png"
+        src="assets/images/sectie4/light_0000s_0001_Group-1.png"
         alt="een gloeiend ei in de natuur"
       />
     </picture>
 
     <picture class="image__section4__part glow" data-depth="0.6">
     <source
-        srcset="assets/images/sectie4/webp/light_0000s_0001_egg.webp 100w"
+        srcset="assets/images/sectie4/webp/light_0000s_0000_Group-2.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie4/light_0000s_0001_egg.png  100w"
+        srcset="assets/images/sectie4/light_0000s_0000_Group-2.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0001_egg.png"
+        src="assets/images/sectie4/light_0000s_0000_Group-2.png"
         alt="een gloeiend ei in de natuur"
       />
     </picture>
 
-    <picture class="image__section4__part" data-depth="0">
-    <source
-        srcset="assets/images/sectie4/webp/light_0000s_0000_Layer-3.webp 100w"
-        sizes="100vw"
-        type="image/webp"
-      />
-      <source
-        srcset="assets/images/sectie4/light_0000s_0000_Layer-3.png  100w"
-        sizes="100vw"
-        type="image/png"
-      />
-      <img
-        class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0000_Layer-3.png"
-        alt="een gloeiend ei in de natuur"
-      />
-    </picture>
+
   </div>
 
 </section>
