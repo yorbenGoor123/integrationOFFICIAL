@@ -81,11 +81,26 @@ import ScrollMagic from 'scrollmagic';
     $keys.addEventListener('click', handleClickKeys);
   };
 
+  const handleLoadEvent = () => {
+
+    setTimeout(() => {
+      const $loadWrapper = document.querySelector(`.loader__wrapper`);
+      const $loader = document.querySelector(`.loader`);
+      $loadWrapper.classList.add('imageFadeIn');
+      $loader.classList.add('imageFadeOut');
+    }, 1000);
+  };
+
+  const loader = () => {
+    window.addEventListener('load', handleLoadEvent);
+  };
+
   const init = () => {
     parallax();
     scrollMagicProjects();
     scrollMagicProjectsRight();
     fadeOut();
+    loader();
   };
 
   init();

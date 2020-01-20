@@ -12,6 +12,22 @@
   </head>
 
 <body>
+
+<div class="loader">
+        <div class="loading">
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+            <div class="obj"></div>
+          </div>
+    </div>
+
+
+<div class="loader__wrapper">
 <header class="header">
 <h1 class="header__titleLogo"> <span class="logo__span ready">Ready</span> <span class="logo__span player">player one</span class="logo__span"> </h1>
 <nav role="navigation">
@@ -58,6 +74,7 @@
     <a class="language language__en" href="">En</a>
   </div>
     </header>
+
       <?php
         if(!empty($_SESSION['error'])) {
           echo '<div class="error box">' . $_SESSION['error'] . '</div>';
@@ -82,6 +99,8 @@
     </footer>
 
     <?php echo $js; ?>
+
+    </div>
   </body>
 </html>
 <?php }
