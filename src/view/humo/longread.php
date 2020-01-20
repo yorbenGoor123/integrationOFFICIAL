@@ -52,7 +52,7 @@
         type="image/png"
       />
       <img
-        class="headset__image glow"
+        class="headset__image"
         src="assets/images/headset/oasis_0000s_0001_Layer-5.png"
         alt="virtual reality glasses"
       />
@@ -70,7 +70,7 @@
         type="image/png"
       />
       <img
-        class="headset__image glow"
+        class="headset__image"
         src="assets/images/headset/oasis_0000s_0000_Group-1.png"
         alt="virtual reality glasses"
       />
