@@ -334,7 +334,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
         <h2 class="section__title glow digit">DE DRIE SLEUTELS</h2>
 
         <p class="section2__paragraph digit">Om het easter egg te voltooien moet je, zoals eerder al vermeld, drie poorten openen met drie sleutels. De drie sleutels zijn beproevingen die je niet testen op je skills maar ze testen je aan de hand van verschillende factoren: Hoe goed ken je Halliday?, Zou je the oasis met verstand behandelen?, Ben je het wel waard om the oasis te bezitten? etc. </p>
-            <div class="button__pulsating keys__container"><span class="pulsating__button keys__button"></span> <p class="pulsating__button__text">Verzamel de sleutels</p></div>
+            <div class="button__pulsating"><span class="pulsating__button keys__button keys__container"></span> <p class="pulsating__button__text keys__pulsating__text">Verzamel de sleutels</p></div>
             </div>
 
           <div id="scene3" class="background-image">

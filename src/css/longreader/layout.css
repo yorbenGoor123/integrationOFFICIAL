@@ -41,3 +41,7 @@
 .title__hidden {
   display: none;
 }
+
+.section__justRemember__text {
+  text-align: center;
+}

@@ -58,6 +58,17 @@ import ScrollMagic from 'scrollmagic';
   const handleClickKeys = () => {
     const $interactionKeys = document.querySelectorAll(`.InteractionKeys`);
     const $keysContainer = document.querySelector('.keys__container');
+    const $textPulsating = document.querySelector(`.keys__pulsating__text`);
+    setTimeout(() => {
+      $textPulsating.innerHTML = 'Je hebt men sleutels gevonden! nu bezit jij de oasis. Wees verstandig met wat je doet';
+      $textPulsating.classList.add('imageFadeIn');
+      $textPulsating.style.fontWeight = '400';
+      $textPulsating.style.fontSize = '2rem';
+      $textPulsating.style.textAlign = 'center';
+      $textPulsating.style.marginTop = '2rem';
+
+    }, 2000);
+
     $keysContainer.classList.add('imageFadeOut');
     $interactionKeys.forEach($interactionKey => {
       $interactionKey.classList.add('imageFadeOut');
