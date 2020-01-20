@@ -8,6 +8,11 @@
   margin-top: 8rem;
 }
 
+.book__name {
+  font-size: 1.5rem;
+  font-weight: var(--fontWeightBold);
+}
+
 @media (--only-large-screen) {
 
   .position__absolute {

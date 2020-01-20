@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 38rem;
+  justify-content: flex-end;
 }
 
 .product__items {

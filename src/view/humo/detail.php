@@ -4,7 +4,7 @@
  <a class="position__absolute" href="index.php?page=product "> <img src="assets/humo/arrow__back.svg" alt="arrow__back"></a>
 
   <div class="book__article__image__wrapper">
-  <img src="assets/humo/book.svg" alt="book article name">
+  <img src="<?php echo $product['product__image']; ?>" alt="<?php echo $product['product__image']; ?>">
 
   <div class="previous__next__buttons">
   <a class="button__previousAndNext previous" href=""><img class="previous__image" src="assets/humo/arrow.svg" alt="arrow_button"></a>
@@ -13,7 +13,7 @@
   </div>
 
   <div class="book__info">
-  <p class="book__title info__item"><?php echo $product['name']; ?></p>
+  <p class="book__name info__item"><?php echo $product['name']; ?></p>
   <p class="book__description info__item"><strong>Beschrijving:</strong><?php echo $product['description']; ?></p>
   <p class="book__pages info__item"><strong>Specificaties:</strong> <?php echo $product['specifications']; ?></p>
 

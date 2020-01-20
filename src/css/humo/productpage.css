@@ -82,3 +82,8 @@
   display: flex;
   justify-content: center;
 }
+
+.book__title {
+  width: 20rem;
+  text-align: center;
+}
