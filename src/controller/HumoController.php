@@ -12,16 +12,6 @@ class HumoController extends Controller {
 
   public function index() {
 
-    if(!empty($_GET['idhome'])){
-      $producthome = $this->humoDAO->selectBookById($_GET['idhome']);
-    }
-
-    if(empty($producthome) && $_GET['idhome'] = "0"){
-      header('index.php?&idhome=1');
-      exit();
-    }
-
-  $this->set('producthome',$producthome);
     }
 
   public function longread() {
@@ -54,10 +44,6 @@ class HumoController extends Controller {
     $this->set('types',$this->humoDAO->selectTypes());
     }
 
-  public function basket() {
-
-    }
-
   public function detail() {
     if(!empty($_GET['id'])){
       $product = $this->humoDAO->selectById($_GET['id']);
@@ -69,11 +55,71 @@ class HumoController extends Controller {
       exit();
     }
 
+    if (!empty($_POST['action'])) {
+      // kijk of er op een add button geklikt werd
+      if ($_POST['action'] == 'add') {
+          // logica staat in aparte functie om deze compact te houden
+          $this->_handleAdd();
+          header('Location: index.php?page=basket');
+          exit();
+      }
+  }
+
     $this->set('product',$product);
     }
+
+    public function basket() {
+      if (!empty($_POST['remove'])) {
+        // 1 specifiek item verwijderen uit de cart - zie aparte functie
+        $this->_handleRemove();
+        // redirect naar dezelfde pagina om geen melding te krijgen bij refresh
+        header('Location: index.php?page=basket');
+        exit();
+    }
+    if (!empty($_POST['action'])) {
+    if ($_POST['action'] == 'update') {
+      // een beetje meer werk - zie aparte functie
+      $this->_handleUpdate();
+  }
+}
+      }
 
   public function checkout() {
 
     }
+
+    private function _handleAdd() {
+      if (empty($_SESSION['cart'][$_POST['id']])) {
+        $product = $this->humoDAO->selectById($_POST['id']);
+        if (empty($product)) {
+          return;
+        }
+        $_SESSION['cart'][$_POST['id']] = array(
+          'product' => $product,
+          'quantity' => $_POST['quantity']
+        );
+      }
+  }
+
+  private function _handleRemove() {
+    // de waarde van $_POST['remove'] is een movie id
+    // verwijder deze uit de sessie variabele indien deze bestaat
+    if (isset($_SESSION['cart'][$_POST['remove']])) {
+        unset($_SESSION['cart'][$_POST['remove']]);
+    }
+}
+
+private function _handleUpdate() {
+  // de hoeveelheden per movie komen binnen als een associatieve array
+  // bekijk de html code via view source om de names van de input velden te bekijken
+  // overloop alle quantities die binnenkomen via post
+  foreach ($_POST['quantity'] as $productId => $quantity) {
+      if (!empty($_SESSION['cart'][$productId])) {
+          // stel de nieuwe quantity in
+          $_SESSION['cart'][$productId]['quantity'] = $quantity;
+      }
+  }
+
+}
 
 }

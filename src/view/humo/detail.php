@@ -33,14 +33,15 @@
   <span class="practicall__info__delivery"><?php echo $product['delivery_time']; ?></span>
   </div>
 
-<form class="landingpage__form info__item" action="">
+<form method="post" class="landingpage__form info__item">
+<input  type="hidden" name="id" value="<?php echo $product['id'];?>">
   <div class="quantity__wrapper">
   <label class="label__quantity" for="aantal">Aantal:</label>
-  <input class="input input__number" type="number">
+  <input class="input input__number" name="quantity" type="number" required min="1" max="10">
   </div>
 
   <div class="button__wrapper">
-  <input class="input input__button input__BuyNow" type="submit" value="nu kopen">
+  <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
   <input class="input input__button input__Ebook" type="submit" value="Lees longreader">
   </div>
 </form>

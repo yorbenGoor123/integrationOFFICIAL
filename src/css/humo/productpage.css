@@ -86,7 +86,9 @@
 .book__title {
   width: 20rem;
   text-align: center;
+}
 
+.title__book__home {
   @media (--only-large-screen) {
     text-align: left;
   }
