@@ -12,6 +12,16 @@ class HumoController extends Controller {
 
   public function index() {
 
+    if(!empty($_GET['idhome'])){
+      $producthome = $this->humoDAO->selectBookById($_GET['idhome']);
+    }
+
+    if(empty($producthome) && $_GET['idhome'] = "0"){
+      header('index.php?&idhome=1');
+      exit();
+    }
+
+  $this->set('producthome',$producthome);
     }
 
   public function longread() {
@@ -19,9 +29,29 @@ class HumoController extends Controller {
     }
 
   public function product() {
-    $products = $this->humoDAO->selectAllProducts();
+
+
+    if(empty($_GET['type']) || $_GET['type'] === 'all'){
+      $products = $this->humoDAO->selectAllProducts();
+
+
+    }else{
+      $products = $this->humoDAO->selectByType($_GET['type']);
+
+
+    }
+    if(empty($products)){
+      $products = $this->humoDAO->selectAllProducts();
+
+    }
+
+    if ($_SERVER['HTTP_ACCEPT'] == 'application/json') {
+      echo json_encode($activities);
+      exit();
+    }
 
     $this->set('products', $products);
+    $this->set('types',$this->humoDAO->selectTypes());
     }
 
   public function basket() {

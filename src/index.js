@@ -95,6 +95,8 @@ import ScrollMagic from 'scrollmagic';
     window.addEventListener('load', handleLoadEvent);
   };
 
+
+
   const init = () => {
     parallax();
     scrollMagicProjects();

@@ -1,13 +1,13 @@
 <main>
 <section>
-  <form class="formFilter" action="">
+  <form method="get" class="formFilter" action="index.php?page=product">
+  <input type="hidden" name="page" value="product">
   <label class="filterLabel" for="filterLabel">Filter naar:</label>
-    <select name="options" class="filterSelect" >
-      <option value="Alle producten">Alle producten</option>
-      <option value="Boeken">Boeken</option>
-      <option value="Lees accesoires">Lees accesoires</option>
-      <option value="Abonnementen">Abonnementen</option>
-      <option value="Eigen ontwerp">Eigen ontwerp</option>
+    <select name="type" class="filterSelect filter-type" >
+      <option class="filter__input" value="all">alle producten</option>
+      <?php foreach($types as $type): ?>
+      <option class="filter__input" value="<?php echo $type['product_type'] ?>"><?php echo $type['product_type'] ?></option>
+      <?php endforeach; ?>
   </select>
 
   <input class="input input__button input__button__search" type="submit" value="zoek">
@@ -35,7 +35,7 @@
           <div class="product__item__container">
           <span class="book__title info"><?php echo $product['name']; ?></span>
           <a href="index.php?page=detail-page&id=<?php echo $product['id'];?>"><img src="<?php echo $product['product__image'] ?>" alt="<?php echo $product['name']; ?>"> </a>
-          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen -- <?php echo $product['price'] ?></a>
+          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen --€<?php echo $product['price'] ?></a>
           <span class="delivery__date"><?php echo $product['delivery_time'] ?></span>
           </div>
           </li>

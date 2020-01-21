@@ -7,14 +7,18 @@
   <img src="<?php echo $product['product__image']; ?>" alt="<?php echo $product['product__image']; ?>">
 
   <div class="previous__next__buttons">
-  <a class="button__previousAndNext previous" href=""><img class="previous__image" src="assets/humo/arrow.svg" alt="arrow_button"></a>
-  <a class="button__previousAndNext next" href=""><img class="next__image" src="assets/humo/arrow.svg" alt="arrow_button"></a>
+
+  <?php
+  $id = $_GET['id'];
+  ?>
+  <a class="button__previousAndNext previous" href="index.php?page=detail-page&id=<?php echo $id-1?>"><img class="previous__image" src="assets/humo/arrow.svg" alt="arrow_button"></a>
+  <a class="button__previousAndNext next" href="index.php?page=detail-page&id=<?php echo $id+1?>"><img class="next__image" src="assets/humo/arrow.svg" alt="arrow_button"></a>
   </div>
   </div>
 
   <div class="book__info">
   <p class="book__name info__item"><?php echo $product['name']; ?></p>
-  <p class="book__description info__item"><strong>Beschrijving:</strong><?php echo $product['description']; ?></p>
+  <p class="book__description info__item"><strong>Beschrijving: </strong> <?php echo $product['description']; ?></p>
   <p class="book__pages info__item"><strong>Specificaties:</strong> <?php echo $product['specifications']; ?></p>
 
   <div class="rating__wrapper info__item">
