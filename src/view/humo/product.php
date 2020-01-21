@@ -10,7 +10,7 @@
       <?php endforeach; ?>
   </select>
 
-  <input class="input input__button input__button__search" type="submit" value="zoek">
+  <input class="input input__button input__button__search has-js" type="submit" value="zoek">
 
   </form>
 
@@ -23,7 +23,7 @@
       <option value="A-Z">A-Z</option>
   </select>
 
-  <input class="input input__button input__button__search button__small" type="submit" value="zoek">
+  <input class="input input__button input__button__search button__small has-js" type="submit" value="zoek">
   </form>
 
 

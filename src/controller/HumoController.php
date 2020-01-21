@@ -46,7 +46,7 @@ class HumoController extends Controller {
     }
 
     if ($_SERVER['HTTP_ACCEPT'] == 'application/json') {
-      echo json_encode($activities);
+      echo json_encode($products);
       exit();
     }
 

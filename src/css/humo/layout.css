@@ -25,7 +25,9 @@ strong {
   font-weight: var(--fontWeightBold);
 }
 
-
+.has-js {
+  display: none;
+}
 
 @media (--only-large-screen) {
 

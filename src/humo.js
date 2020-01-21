@@ -1,4 +1,5 @@
 require ('./humo.css');
+require('babel-polyfill');
 
 
 const handleChangeFilter = e => {
@@ -44,6 +45,8 @@ const changeFilter = () => {
 };
 
 const init = () => {
+  const $inputSearch = document.querySelector(`.input__button__search`);
+  $inputSearch.classList.add('has-js');
   changeFilter();
 };
 
