@@ -16,6 +16,10 @@
   <article class="discount">
   <p class="discount__paragraph__strong">KRIJG 60% KORTING BIJ DEZE AANKOOP</p>
   <p class="discount__paragraph">Vind de kortingscode op de flap van humo betreffende deze week</p>
+  <form method="post" action="index.php?page=product">
+  <input type="text" name="coupon">
+  <input type="submit" name="actionCoupon" value="apply">
+  </form>
   </article>
 
   <h2 class="section__title">Boeken</h2>

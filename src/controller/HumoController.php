@@ -45,6 +45,7 @@ class HumoController extends Controller {
     }
 
   public function detail() {
+
     if(!empty($_GET['id'])){
       $product = $this->humoDAO->selectById($_GET['id']);
     }
@@ -69,6 +70,7 @@ class HumoController extends Controller {
     }
 
     public function basket() {
+
       if (isset($_SESSION['personal_data'])){
       unset($_SESSION['personal_data']);
       }

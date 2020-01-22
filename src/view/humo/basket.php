@@ -16,10 +16,10 @@
 
       if($item['coupon'] = $item['product']['coupon']){
         $itemPriceProduct = $item['product']['price__after__coupon'];
-      }else {
+      }else if($item['coupon'] != $item['product']['coupon']) {
         $itemPriceProduct = $item['product']['price'];
       }
-        $itemPrice = $itemPriceProduct;
+        $itemPrice = $item['product']['price'];
         $itemTotal = $item['quantity'] * $itemPrice;
         $totalPrice += $itemTotal;
       ?>

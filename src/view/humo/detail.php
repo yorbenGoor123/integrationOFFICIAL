@@ -45,9 +45,6 @@
   <div class="quantity__wrapper">
   <label class="label__quantity" for="aantal">Aantal:</label>
   <input class="input input__number" name="quantity" type="number" required min="1" max="10">
-  <label for="korting">Kortingscode:</label>
-  <input type="text" name="coupon">
-  <input type="submit" name="actionCoupon" value="apply">
   </div>
 
   <div class="button__wrapper">
