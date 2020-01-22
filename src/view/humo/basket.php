@@ -14,14 +14,12 @@
       <?php foreach($_SESSION['cart'] as $item): ?>
       <?php
 
-      if($item['coupon'] = $item['product']['coupon']){
-        $itemPriceProduct = $item['product']['price__after__coupon'];
-      }else if($item['coupon'] != $item['product']['coupon']) {
-        $itemPriceProduct = $item['product']['price'];
-      }
+
         $itemPrice = $item['product']['price'];
         $itemTotal = $item['quantity'] * $itemPrice;
         $totalPrice += $itemTotal;
+
+
       ?>
       <li class="basket__item">
         <img class="basket__image" src="<?php echo $item['product']['product__image'] ?>" alt="<?php echo $item['product']['name'] ?>">
@@ -57,19 +55,13 @@
 
   <div class="basket__costs__container">
     <p class="total__text">extra kosten</p>
-    <span class="cost">€<?php if($totalPrice > 0 && $totalPrice < 20) {
-      $deliveryPrice = "1.09";
-      echo $deliveryPrice;
-    }else {
-      $deliveryPrice = "0";
-      echo $deliveryPrice;
-    } ?></span>
+    <span class="cost">€0</span>
   </div>
 
 
   <div class="basket__costs__container">
     <p class="total__text total">Totaal</p>
-    <span class="cost total">€<?php echo $totalPrice += $deliveryPrice;?></span>
+    <span class="cost total">€<?php echo $totalPrice?></span>
   </div>
 
 </section>
@@ -83,7 +75,10 @@
 <input type="hidden" name="page" value="checkout">
 <input type="hidden" name="pageFlow" value="personal info">
 
+
+<?php if(!empty($_SESSION['cart'])){ ?>
 <input class="buttonHumoRed__link" type="submit" value="naar de kassa">
+<?php } ?>
 
 </form>
 

@@ -27,15 +27,19 @@
   <article class="book__article">
 
   <div class="book__article__image__wrapper">
-  <img src="assets/humo/book.svg" alt="book article name">
+  <div class="div__images">
+  <?php foreach($books as $book): ?>
+  <a href="index.php?page=detail-page&id=<?php echo $book['id'];?>"><img class="header__image__book" src="<?php echo $book['product__image'] ?>" alt="<?php echo $book['product__image'] ?>"></a>
+  <?php endforeach; ?>
+  </div>
+  </div>
 
   <div class="previous__next__buttons">
   <a class="button__previousAndNext next" href=""><img class="next__image" src="assets/humo/arrow.svg" alt="arrow_button"></a>
-  </div>
+  <p class="scroll__hor">Horizontaal scrollen</p>
   </div>
 
   <div class="book__info">
-
   </div>
   </article>
 

@@ -3,7 +3,7 @@
 
  <a class="position__absolute" href="index.php?page=product "> <img src="assets/humo/arrow__back.svg" alt="arrow__back"></a>
 
-  <div class="book__article__image__wrapper">
+  <div class="book__wrapper__detail">
   <img src="<?php echo $product['product__image']; ?>" alt="<?php echo $product['product__image']; ?>">
 
   <div class="previous__next__buttons">

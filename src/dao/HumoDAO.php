@@ -33,10 +33,17 @@ class HumoDAO extends DAO {
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
 
-  public function selectBookById($idhome){
+  public function selectAllBooks(){
+    $sql = "SELECT * FROM `tblproducts` WHERE `product_type` = 'book'";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
+  public function selectBookById($idBook){
     $sql = "SELECT * FROM `tblproducts` WHERE `product_type` = 'book' AND `id` = :id";
     $stmt = $this->pdo->prepare($sql);
-    $stmt->bindValue(':id',$idhome);
+    $stmt->bindValue(':id',$idBook);
     $stmt->execute();
     return $stmt->fetch(PDO::FETCH_ASSOC);
   }

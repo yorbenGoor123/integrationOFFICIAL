@@ -24,4 +24,11 @@
   .book__article {
     margin-top: 0;
   }
+
+  .book__wrapper__detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

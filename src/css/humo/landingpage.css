@@ -78,8 +78,11 @@
 
 .book__article__image__wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  overflow-x: scroll;
+  grid-column: 3/5;
+  width: 100%;
 }
 
 .book__info {
@@ -112,6 +115,16 @@
   font-weight: var(--fontWeightBold);
   font-size: 3rem;
   margin-right: var(--spacerSmall);
+}
+
+.div__images {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__image__book {
+  width: 18rem;
+  margin-right: 2rem;
 }
 
 .landingpage__form {
@@ -172,12 +185,31 @@
   font-weight: var(--fontWeightBold);
 }
 
+.scroll__hor {
+  color: var(--colorMain);
+}
+
+.previous__next__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (--only-large-screen) {
 
   .thirdSection {
     margin-left: 10rem;
     margin-right: 10rem;
   }
+
+  .previous__next__buttons {
+    grid-column: 2/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 }
 
 .abbonement__paragraph__container {

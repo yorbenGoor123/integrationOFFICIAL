@@ -11,7 +11,9 @@ class HumoController extends Controller {
   }
 
   public function index() {
+    $books = $this->humoDAO->selectAllBooks();
 
+    $this->set('books', $books);
     }
 
   public function longread() {
