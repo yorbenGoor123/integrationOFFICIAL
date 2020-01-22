@@ -30,13 +30,10 @@
 
   <div class="practicall__info info__item">
   <span class="practicall__info__price"><?php
-  $priceProduct = $product['price'];
 
-  if(!empty($_POST['actionCoupon'])) {
-  if($_POST['coupon'] == $product['coupon']){
-  $priceProduct =  $product['price__after__coupon'];
-  }
-}echo $priceProduct?></span>
+  echo $product['price'];?>
+
+  </span>
   <span class="practicall__info__delivery"><?php echo $product['delivery_time']; ?></span>
   </div>
 

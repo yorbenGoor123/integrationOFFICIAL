@@ -21,6 +21,7 @@ class HumoController extends Controller {
   public function product() {
 
 
+
     if(empty($_GET['type']) || $_GET['type'] === 'all'){
       $products = $this->humoDAO->selectAllProducts();
 
@@ -90,12 +91,37 @@ class HumoController extends Controller {
       }
 
   public function checkout() {
-    if (!empty($_POST['Payment'])) {
+    if (!empty($_POST['insertOrder'])) {
       $_SESSION['delivery'] = $_POST;
       }
 
     if (!empty($_POST['delivery'])) {
     $_SESSION['personal_data'] = $_POST;
+    }
+
+    if(!empty($_POST['action'])){
+      if($_POST['action'] == 'insertOrder'){
+        $data = array(
+          'name' => $_SESSION['personal_data']['name'],
+          'email' => $_SESSION['personal_data']['email'],
+          'adress' => $_SESSION['personal_data']['street'],
+          'city' => $_SESSION['personal_data']['gemeente'],
+          'postal_code' => $_SESSION['personal_data']['postcode'],
+          'telephone_number' => $_SESSION['personal_data']['number'],
+          'delivery_option' => $_POST['leveroptie'],
+          'total_price' => 10
+        );
+
+        $insertedOrder = $this->humoDAO->insertOrder($data);
+        if(!$insertedOrder){
+          $errors = $this->humoDAO->validate($data);
+          $this->set('errors',$errors);
+        }else{
+          $_SESSION['info'] = 'Bedankt voor je aankoop';
+          header('Location:index.php?page=product');
+          exit();
+        }
+      }
     }
 
 }
@@ -112,8 +138,7 @@ class HumoController extends Controller {
         }
         $_SESSION['cart'][$_POST['id']] = array(
           'product' => $product,
-          'quantity' => $_POST['quantity'],
-          'coupon' => $_POST['coupon']
+          'quantity' => $_POST['quantity']
         );
       }
   }

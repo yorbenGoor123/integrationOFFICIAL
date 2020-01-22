@@ -14,7 +14,7 @@
   </article>
 
   <article class="discount">
-  <p class="discount__paragraph__strong">KRIJG 60% KORTING BIJ DEZE AANKOOP</p>
+  <p class="discount__paragraph__strong">KRIJG 60% KORTING op onze boeken</p>
   <p class="discount__paragraph">Vind de kortingscode op de flap van humo betreffende deze week</p>
   <form method="post" action="index.php?page=product">
   <input type="text" name="coupon">

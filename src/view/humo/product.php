@@ -35,18 +35,7 @@
           <div class="product__item__container">
           <span class="book__title info"><?php echo $product['name']; ?></span>
           <a href="index.php?page=detail-page&id=<?php echo $product['id'];?>"><img src="<?php echo $product['product__image'] ?>" alt="<?php echo $product['name']; ?>"> </a>
-          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen --€<?php
-          if(!empty($_POST['actionCoupon'])) {
-          if($_POST['coupon'] == $product['coupon']){
-            echo $product['price__after__coupon'];
-          }else{
-          echo $product['price']; } }
-
-          if(empty($_POST['actionCoupon'])) {
-            echo $product['price'];
-          }
-
-          ?></a>
+          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen --€<?php echo $product['price'];?></a>
           <span class="delivery__date"><?php echo $product['delivery_time'] ?></span>
           </div>
           </li>

@@ -114,7 +114,7 @@
 </div>
 
 <div class="kassa__button">
-<button class="buttonHumoRed__link" name="Payment" type="submit" value="naar betaling">Naar betaalopties</button>
+<button class="buttonHumoRed__link" name="action" type="submit" value="insertOrder">Naar betaalopties</button>
 </div>
 </form>
 </section>
