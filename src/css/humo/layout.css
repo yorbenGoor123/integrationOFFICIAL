@@ -29,6 +29,11 @@ strong {
   display: none;
 }
 
+.error {
+  color: var(--colorMain);
+  margin-top: .4rem;
+}
+
 @media (--only-large-screen) {
 
   .firstSection {

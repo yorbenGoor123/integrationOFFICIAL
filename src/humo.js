@@ -1,5 +1,6 @@
 require ('./humo.css');
 require('babel-polyfill');
+require('./js/validate');
 
 
 const handleChangeFilter = e => {
