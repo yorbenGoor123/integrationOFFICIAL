@@ -65,6 +65,7 @@
   margin-top: 5rem;
 }
 
+
 @media (--only-large-screen) {
 
   .input__container {
@@ -96,10 +97,6 @@
   .personalInfo__wrapper {
     margin-left: 30%;
     margin-right: 30%;
-  }
-
-  .checkout__title {
-    display: block;
   }
 
   .checkout__required {

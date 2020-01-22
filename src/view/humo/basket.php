@@ -1,5 +1,7 @@
 <main>
 <form method="post" action="index.php?page=basket" class="form__filter">
+<?php $totalPrice = "0";
+      $deliveryPrice = "0"; ?>
 <div class="basket__wrapper">
 <section class="section__basket">
   <h2 class="section__title__basket">Winkelmand</h2>
@@ -10,17 +12,17 @@
       } ?>
 
       <?php foreach($_SESSION['cart'] as $item): ?>
+      <?php
+        $itemPrice = $item['product']['price'];
+        $itemTotal = $item['quantity'] * $itemPrice;
+        $totalPrice += $itemTotal;
+      ?>
       <li class="basket__item">
         <img class="basket__image" src="<?php echo $item['product']['product__image'] ?>" alt="<?php echo $item['product']['name'] ?>">
         <div class="basket__details">
           <p class="basket__title basket__item__info"><?php echo $item['product']['name'] ?></p>
           <p class="basket__item__info"><strong>Descriptie:</strong> <?php echo $item['product']['description']  ?></p>
           <div class="basket__item__info">
-              <label class="label__basket" for="">E-book</label>
-              <select name="e-book" class="select-form" id="e-book-select-form">
-                <option value="neen">neen</option>
-                <option value="ja">ja</option>
-              </select>
               <label class="label__basket" for="">Hoeveelheid</label>
               <input type="number" name="quantity[<?php echo $item['product']['id']; ?>]" class="input input__number" required min="1" max="10" value="<?php echo $item['quantity'] ?>">
           </div>
@@ -30,7 +32,7 @@
         </div>
 
         <div class="price__basket__overview">
-          <span><?php echo $item['product']['price']  ?></span>
+          <span>€<?php echo $item['quantity']*$itemPrice ?></span>
         </div>
       </li>
 
@@ -39,33 +41,47 @@
   </div>
 </section>
 
+
 <section class="summary">
   <h2 class="title__summary">Summary</h2>
   <div class="basket__costs__container">
     <p class="total__text">Sub totaal</p>
-    <span class="cost">€20</span>
+    <span class="cost">€<?php echo $totalPrice;?></span>
   </div>
 
   <div class="basket__costs__container">
-    <p class="total__text">Leverings Kosten</p>
-    <span class="cost">€2</span>
+    <p class="total__text">extra kosten</p>
+    <span class="cost">€<?php if($totalPrice > 0 && $totalPrice < 20) {
+      $deliveryPrice = "1.09";
+      echo $deliveryPrice;
+    }else {
+      $deliveryPrice = "0";
+      echo $deliveryPrice;
+    } ?></span>
   </div>
+
 
   <div class="basket__costs__container">
     <p class="total__text total">Totaal</p>
-    <span class="cost total">€22</span>
+    <span class="cost total">€<?php echo $totalPrice += $deliveryPrice;?></span>
   </div>
+
 </section>
+</form>
 </div>
 
 <div class="kassa__button">
 
-<input type="hidden" name="page" value="checkout">
+<form method="get" action="index.php?page=checkout">
 
+<input type="hidden" name="page" value="checkout">
+<input type="hidden" name="pageFlow" value="personal info">
 
 <input class="buttonHumoRed__link" type="submit" value="naar de kassa">
 
+</form>
+
 
 </div>
-</form>
+
 </main>

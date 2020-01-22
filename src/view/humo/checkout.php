@@ -24,7 +24,7 @@
 
 <div class="input__container">
 <label class="label" for="Adress">Adress:</label>
-<input class="input input__field" name="email" type="e-mail" placeholder="Bijv: Example-street 23" required>
+<input class="input input__field" name="street" type="e-mail" placeholder="Bijv: Example-street 23" required>
 </div>
 
 
@@ -35,17 +35,17 @@
 
 <div class="input__container">
 <label class="label" for="Gemeente">Postcode:</label>
-<input class="input input__field input__postcode" name="gemeente" type="number" placeholder="8949" required>
+<input class="input input__field input__postcode" name="postcode" type="number" placeholder="8949" required>
 </div>
 
 <div class="input__container">
 <label class="label" for="Gemeente">Telefoon Nummer:</label>
-<input class="input input__field" name="gemeente" type="number" placeholder="+32" required>
+<input class="input input__field" name="number" type="number" placeholder="+32" required>
 </div>
 </div>
 
 <div class="kassa__button">
-<input class="buttonHumoRed__link" name="submit" type="submit" value="naar levering">
+<button class="buttonHumoRed__link" name="delivery" type="submit" value="naar levering">Naar levering</button>
 </div>
 
 
@@ -61,29 +61,57 @@
 
 <section class="section__personalInfo">
 <h2 class="checkout__title">Levering opties</h2>
+
+<form method="post" action="index.php?page=checkout&pageFlow=betaalopties">
+<input type="hidden" name="page" value="checkout">
+<input type="hidden" name="pageFlow" value="betaalopties">
+
+
 <div class="container">
-  <div class="radio">
-    <input id="radio-1" name="radio" type="radio" checked>
-    <label for="radio-1" class="radio-label">Lever optie 1</label>
-  </div>
 
-  <div class="radio">
-    <input id="radio-2" name="radio" type="radio">
-    <label  for="radio-2" class="radio-label">Lever optie 2</label>
-  </div>
+  <ul class="unordered__list__radio">
+  <li class="list__item__radio">
+    <input class="input input__radio" type="radio" id="f-option"name="leveroptie" value="leveroptie1">
+    <label class="label__radio" for="f-option">Post nl --bezorging aan thuis</label>
 
-  <div class="radio">
-    <input id="radio-2" name="radio" type="radio">
-    <label  for="radio-2" class="radio-label">Lever optie 3</label>
-  </div>
+    <div class="check"></div>
+  </li>
 
+  <li class="list__item__radio">
+    <input class="input input__radio" type="radio" id="s-option" name="leveroptie" value="leveroptie2">
+    <label class="label__radio" for="s-option">afhalen bij dichtsbijzijnde b-post</label>
+
+    <div class="check"><div class="inside"></div></div>
+  </li>
+
+  <li class="list__item__radio">
+    <input class="input input__radio" type="radio" id="t-option" name="leveroptie" value="leveroptie3">
+    <label class="label__radio" for="t-option">Levering op zondag</label>
+
+    <div class="check"><div class="inside"></div></div>
+  </li>
+</ul>
 </div>
-</div>
 
+<div class="kassa__button">
+<button class="buttonHumoRed__link" name="Payment" type="submit" value="naar betaling">Naar betaalopties</button>
+</div>
+</form>
 </section>
-
 
 <?php
      }
     } ?>
+
+<?php if(!empty($_GET["pageFlow"])) {
+          if($_GET['pageFlow'] == "betaalopties"){ ?>
+
+<section>
+  <h2>hello world!</h2>
+</section>
+
+<?php
+  }
+}
+?>
 </main>

@@ -39,6 +39,10 @@ $routes = array(
   'checkout' => array(
     'controller' => 'Humo',
     'action' => 'checkout',
+  ),
+  'personalisatie' => array(
+    'controller' => 'Humo',
+    'action' => 'personalisatie',
   )
 
   );
