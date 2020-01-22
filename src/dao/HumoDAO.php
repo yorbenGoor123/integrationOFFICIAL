@@ -70,10 +70,36 @@ class HumoDAO extends DAO {
     return false;
   }
 
+  public function insertOrderCustom($data) {
+    $errors = $this->validate( $data );
+    if (empty($errors)) {
+      $sql = "INSERT INTO `tblordersCustom` (`orderCustom_id`, `product_name`, `product_color`, `product_patern`, `product_text`, `name`, `email`, `adress`, `city`, `postal_code`, `telephone_number`, `delivery_option`) VALUES (:orderCustom_id, :product_name, :product_color, :product_patern, :product_text, :name, :email, :adress, :city, :postal_code, :telephone_number, :delivery_option)";
+      $stmt = $this->pdo->prepare($sql);
+      $stmt->bindValue(':orderCustom_id', $data['orderCustom_id']);
+      $stmt->bindValue(':product_name', $data['product_name']);
+      $stmt->bindValue(':product_color', $data['product_color']);
+      $stmt->bindValue(':product_patern', $data['product_patern']);
+      $stmt->bindValue(':product_text', $data['product_text']);
+      $stmt->bindValue(':name', $data['name']);
+      $stmt->bindValue(':email', $data['email']);
+      $stmt->bindValue(':adress', $data['adress']);
+      $stmt->bindValue(':city', $data['city']);
+      $stmt->bindValue(':postal_code', $data['postal_code']);
+      $stmt->bindValue(':telephone_number', $data['telephone_number']);
+      $stmt->bindValue(':delivery_option', $data['delivery_option']);
+
+      if ($stmt->execute()) {
+        return $this->selectById($this->pdo->lastInsertId());
+      }
+    }
+    return false;
+  }
+
   public function validate( $data ){
     $errors = [];
+
     if (empty($data['name']) ){
-      $errors['name'] = 'Gelieve een email in te vullen';
+      $errors['name'] = 'Gelieve een naam in te vullen';
     }
     if (!isset($data['email'])) {
       $errors['email'] = 'Gelieve email in te vullen';
@@ -93,12 +119,7 @@ class HumoDAO extends DAO {
     if (!isset($data['delivery_option'])) {
       $errors['delivery_option'] = 'Gelieve levering in te vullen';
     }
-    if (!isset($data['total_price'])) {
-      $errors['total_price'] = 'Gelieve een totale prijs in te vullen';
-    }
     return $errors;
   }
-
-
 
 }

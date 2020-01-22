@@ -137,6 +137,34 @@ class HumoController extends Controller {
       }
     }
 
+    if(!empty($_POST['action'])){
+      if($_POST['action'] == 'insertOrderCustom'){
+        $data = array(
+          'product_name' => $_SESSION['personalisatie']['product'],
+          'product_color' => $_SESSION['personalisatie']['color'],
+          'product_patern' => $_SESSION['personalisatie']['patern'],
+          'product_text' => $_SESSION['personalisatie']['custom_text'],
+          'name' => $_SESSION['personal_data']['name'],
+          'email' => $_SESSION['personal_data']['email'],
+          'adress' => $_SESSION['personal_data']['street'],
+          'city' => $_SESSION['personal_data']['gemeente'],
+          'postal_code' => $_SESSION['personal_data']['postcode'],
+          'telephone_number' => $_SESSION['personal_data']['number'],
+          'delivery_option' => $_POST['leveroptie']
+        );
+
+        $insertedOrderCustom = $this->humoDAO->insertOrderCustom($data);
+        if(!$insertedOrderCustom){
+          $errors = $this->humoDAO->validate($data);
+          $this->set('errors',$errors);
+        }else{
+          $_SESSION['info'] = 'Bedankt voor je aankoop';
+          header('Location:index.php?page=product');
+          exit();
+        }
+      }
+    }
+
 }
 
   public function personalisatie() {
