@@ -57,3 +57,18 @@
   color: var(--colorMain);
   font-size: 1.3rem;
 }
+
+.longread__button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  margin-bottom: 0;
+  margin-left: 3rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.input__BuyNow {
+  font-size: 1rem;
+}

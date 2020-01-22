@@ -53,12 +53,14 @@
 
 .loading {
   display: flex;
+  position: fixed;
+  top: 40vh;
 }
 
 .loader {
-  position: fixed;
-  top: 50%;
-  left: 40%;
+  display: flex;
+  justify-content: center;
+
 }
 
 .loader__wrapper {

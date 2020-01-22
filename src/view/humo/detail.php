@@ -47,7 +47,7 @@
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
   <?php }else{ ?>
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
-  <input class="input input__button input__Ebook" type="submit" value="Lees longreader">
+  <a href="index.php?page=longread" class="longread__button input input__button input__Ebook" type="submit" value="Lees longreader">Lees longread</a>
   <?php } ?>
   </div>
 </form>
