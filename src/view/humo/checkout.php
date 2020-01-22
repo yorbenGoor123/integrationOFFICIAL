@@ -114,7 +114,11 @@
 </div>
 
 <div class="kassa__button">
+<?php if(isset($_SESSION['personalisatie'])){ ?>
+<button class="buttonHumoRed__link" name="action" type="submit" value="insertOrderCustom">Naar betaalopties</button>
+<?php } else { ?>
 <button class="buttonHumoRed__link" name="action" type="submit" value="insertOrder">Naar betaalopties</button>
+<?php } ?>
 </div>
 </form>
 </section>

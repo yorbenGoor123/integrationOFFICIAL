@@ -7,9 +7,9 @@
   <h2 class="section__title__basket">Winkelmand</h2>
   <div class="basket__items__container">
     <ul class="basket__items">
-    <?php if(empty($_SESSION['cart'])){
+    <?php if(!isset($_SESSION['cart'])||empty($_SESSION['cart'])){
       echo '<p class="cart--empty">Your shopping cart is empty</p>';
-      } ?>
+      }else { ?>
 
       <?php foreach($_SESSION['cart'] as $item): ?>
       <?php
@@ -40,7 +40,10 @@
         </div>
       </li>
 
-      <?php endforeach; ?>
+      <?php endforeach;
+      }
+      ?>
+
     </ul>
   </div>
 </section>

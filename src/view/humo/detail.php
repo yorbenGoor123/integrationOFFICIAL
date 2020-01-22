@@ -46,7 +46,7 @@
 
   <div class="button__wrapper">
   <?php if($product['product_type'] == 'customizable'){ ?>
-  <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> Personaliseer nu </button>
+  <a href="index.php?page=personalisatie" name="action" class="input input__button input__BuyNow" type="submit" value="add"> Personaliseer nu </a>
   <?php } else if($product['product_type'] == 'accessories'){ ?>
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
   <?php } else if($product['delivery_time'] == 'uitverkocht'){ ?>

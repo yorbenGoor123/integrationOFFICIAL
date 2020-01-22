@@ -209,7 +209,6 @@
     align-items: center;
   }
 
-
 }
 
 .abbonement__paragraph__container {
@@ -254,9 +253,6 @@
 .abbo__item {
   display: flex;
   flex-direction: column;
-
-}
-
-.abbo__item {
   margin: var(--spacerBig);
+
 }

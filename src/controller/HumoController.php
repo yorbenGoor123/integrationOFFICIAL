@@ -77,6 +77,10 @@ class HumoController extends Controller {
       if (isset($_SESSION['personal_data'])){
       unset($_SESSION['personal_data']);
       }
+
+      if (isset($_SESSION['personalisatie'])){
+        unset($_SESSION['personalisatie']);
+        }
       if (!empty($_POST['remove'])) {
         // 1 specifiek item verwijderen uit de cart - zie aparte functie
         $this->_handleRemove();
@@ -101,6 +105,10 @@ class HumoController extends Controller {
     $_SESSION['personal_data'] = $_POST;
     }
 
+    if (!empty($_POST['personalisatie'])) {
+      $_SESSION['personalisatie'] = $_POST;
+      }
+
     if(!empty($_POST['action'])){
       if($_POST['action'] == 'insertOrder'){
         $data = array(
@@ -121,6 +129,9 @@ class HumoController extends Controller {
         }else{
           $_SESSION['info'] = 'Bedankt voor je aankoop';
           header('Location:index.php?page=product');
+          if (isset($_SESSION['cart'])){
+            unset($_SESSION['cart']);
+            }
           exit();
         }
       }
@@ -129,7 +140,9 @@ class HumoController extends Controller {
 }
 
   public function personalisatie() {
-
+    if (isset($_SESSION['personalisatie'])){
+      unset($_SESSION['personalisatie']);
+      }
   }
 
     private function _handleAdd() {
