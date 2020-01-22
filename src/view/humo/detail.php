@@ -29,15 +29,25 @@
   </div>
 
   <div class="practicall__info info__item">
-  <span class="practicall__info__price"><?php echo $product['price']; ?></span>
+  <span class="practicall__info__price"><?php
+  $priceProduct = $product['price'];
+
+  if(!empty($_POST['actionCoupon'])) {
+  if($_POST['coupon'] == $product['coupon']){
+  $priceProduct =  $product['price__after__coupon'];
+  }
+}echo $priceProduct?></span>
   <span class="practicall__info__delivery"><?php echo $product['delivery_time']; ?></span>
   </div>
 
-<form method="post" class="landingpage__form info__item">
+<form method="post" class="landingpage__form info__item" action="">
 <input  type="hidden" name="id" value="<?php echo $product['id'];?>">
   <div class="quantity__wrapper">
   <label class="label__quantity" for="aantal">Aantal:</label>
   <input class="input input__number" name="quantity" type="number" required min="1" max="10">
+  <label for="korting">Kortingscode:</label>
+  <input type="text" name="coupon">
+  <input type="submit" name="actionCoupon" value="apply">
   </div>
 
   <div class="button__wrapper">
@@ -45,7 +55,9 @@
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> Personaliseer nu </button>
   <?php } else if($product['product_type'] == 'accessories'){ ?>
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
-  <?php }else{ ?>
+  <?php } else if($product['delivery_time'] == 'uitverkocht'){ ?>
+    <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> Reserveer </button>
+  <?php } else{ ?>
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
   <a href="index.php?page=longread" class="longread__button input input__button input__Ebook" type="submit" value="Lees longreader">Lees longread</a>
   <?php } ?>

@@ -99,7 +99,7 @@ class HumoController extends Controller {
 }
 
   public function personalisatie() {
-    
+
   }
 
     private function _handleAdd() {
@@ -110,7 +110,8 @@ class HumoController extends Controller {
         }
         $_SESSION['cart'][$_POST['id']] = array(
           'product' => $product,
-          'quantity' => $_POST['quantity']
+          'quantity' => $_POST['quantity'],
+          'coupon' => $_POST['coupon']
         );
       }
   }

@@ -13,7 +13,13 @@
 
       <?php foreach($_SESSION['cart'] as $item): ?>
       <?php
-        $itemPrice = $item['product']['price'];
+
+      if($item['coupon'] = $item['product']['coupon']){
+        $itemPriceProduct = $item['product']['price__after__coupon'];
+      }else {
+        $itemPriceProduct = $item['product']['price'];
+      }
+        $itemPrice = $itemPriceProduct;
         $itemTotal = $item['quantity'] * $itemPrice;
         $totalPrice += $itemTotal;
       ?>
