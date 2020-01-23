@@ -34,8 +34,6 @@
   background-color: var(--colorMain);
   text-align: center;
   height: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   margin-bottom: var(--spacerBig);
 }
 

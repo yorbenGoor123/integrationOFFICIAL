@@ -109,4 +109,12 @@
   background-color: white;
   border: 2px solid var(--colorMain);
   color: var(--colorMain);
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.abbo__button__container {
+  display: flex;
+  justify-content: center;
 }

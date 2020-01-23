@@ -113,8 +113,10 @@
       <a class="buttonHumoRed__link button__abbo" href="index.php?page=abonnement">€12,76 euro/maand</a>
       </div>
 
-      <a class="buttonHumoRed__link button__abbo button__abbo__border" href="index.php?page=abonnement">Abonnement kiezen</a>
     </article>
+    <div class="abbo__button__container">
+    <a class="buttonHumoRed__link button__abbo button__abbo__border" href="index.php?page=abonnement">Abonnement kiezen</a>
+    </div>
   </section>
 
 
