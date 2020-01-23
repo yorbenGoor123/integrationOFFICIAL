@@ -26,7 +26,6 @@
       <img class="book__rating" src="assets/humo/rating_star.svg" alt="rating star">
     <?php } ?>
   </div>
-
   <div class="practicall__info info__item">
   <span class="practicall__info__price"><?php
 

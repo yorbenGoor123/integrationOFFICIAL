@@ -11,6 +11,9 @@ class HumoController extends Controller {
   }
 
   public function index() {
+    if(!empty($_POST['actionCoupon'])){
+      $_SESSION['coupon'] = $_POST;
+    }
 
     $books = $this->humoDAO->selectAllBooks();
 
@@ -37,6 +40,10 @@ class HumoController extends Controller {
 
     if (isset($_SESSION['abonnement'])){
       unset($_SESSION['abonnement']);
+      }
+
+    if (isset($_SESSION['totalprice'])){
+        unset($_SESSION['totalprice']);
       }
 
 
