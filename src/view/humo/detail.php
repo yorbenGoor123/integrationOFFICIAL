@@ -22,10 +22,9 @@
   <p class="book__pages info__item"><strong>Specificaties:</strong> <?php echo $product['specifications']; ?></p>
 
   <div class="rating__wrapper info__item">
-    <img class="book__rating" src="assets/humo/rating_star.svg" alt="rating star">
-    <img class="book__rating" src="assets/humo/rating_star.svg" alt="rating star">
-    <img class="book__rating" src="assets/humo/rating_star.svg" alt="rating star">
-    <img class="book__rating" src="assets/humo/rating_star.svg" alt="rating star">
+    <?php  for($i=1; $i <= $product['rating']; $i++){ ?>
+      <img class="book__rating" src="assets/humo/rating_star.svg" alt="rating star">
+    <?php } ?>
   </div>
 
   <div class="practicall__info info__item">
@@ -40,13 +39,18 @@
 <form method="post" class="landingpage__form info__item" action="">
 <input  type="hidden" name="id" value="<?php echo $product['id'];?>">
   <div class="quantity__wrapper">
+
+  <?php if($product['product_type'] == 'customizable'){ ?>
+  <?php echo ' ' ?>
+  <?php }else { ?>
   <label class="label__quantity" for="aantal">Aantal:</label>
   <input class="input input__number" name="quantity" type="number" required min="1" max="10">
+  <?php } ?>
   </div>
 
   <div class="button__wrapper">
   <?php if($product['product_type'] == 'customizable'){ ?>
-  <a href="index.php?page=personalisatie" name="action" class="input input__button input__BuyNow" type="submit" value="add"> Personaliseer nu </a>
+  <a href="index.php?page=personalisatie" name="action" class="input buttonHumoRed__link" type="submit" value="add"> Personaliseer nu </a>
   <?php } else if($product['product_type'] == 'accessories'){ ?>
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
   <?php } else if($product['delivery_time'] == 'uitverkocht'){ ?>

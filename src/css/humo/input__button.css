@@ -7,6 +7,7 @@
   text-transform: uppercase;
   font-weight: var(--fontWeightBold);
   color: white;
+  cursor: pointer;
 
   @media (--only-large-screen) {
     margin: 0;
@@ -19,6 +20,12 @@
   background-color: white;
   border: 2px solid var(--colorMain);
   color: var(--colorMain);
+  transition: .3s cubic-bezier(.17, .88, .32, 1.27);
+}
+
+.input__Ebook:hover {
+  background-color: var(--colorMain);
+  color: white;
 }
 
 .buttonHumoTrans {
@@ -89,6 +96,13 @@
 
 .input__BuyNow {
   font-size: 1rem;
+  transition: .3s cubic-bezier(.17, .88, .32, 1.27);
+  border: 2px solid var(--colorMain);
+}
+
+.input__BuyNow:hover {
+  background-color: white;
+  color: var(--colorMain);
 }
 
 .button__abbo__border {
