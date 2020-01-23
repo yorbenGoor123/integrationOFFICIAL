@@ -22,7 +22,14 @@
   line-height: 1.8rem;
   margin-bottom: var(--spacerSmall);
   font-size: var(--fontRegular);
+}
 
+.alleproducten_p {
+  width: 90%;
+
+  @media (--only-large-screen) {
+    width: 70%;
+  }
 }
 
 .discount {
@@ -35,6 +42,13 @@
   text-align: center;
   height: auto;
   margin-bottom: var(--spacerBig);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @media (--only-large-screen) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .discount__paragraph__strong {
@@ -237,6 +251,7 @@
   font-size: 1.8rem;
   text-align: center;
   margin-top: 4rem;
+  line-height: 3rem;
 }
 
 .section__title__abbo {
@@ -248,7 +263,7 @@
   justify-content: center;
   flex-flow: wrap;
   margin-top: 4rem;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
 }
 
 .humo__abbo__price__overview {

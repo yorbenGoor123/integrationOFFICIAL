@@ -2,10 +2,7 @@
   <section class="firstSection">
   <article class="section__future">
     <h2 class="section__future__title">Een kijk op onze dystopische toekomst</h2>
-    <p class="section__future__paragraph">Lorem Ipsum is slechts een proeftekst uit het
-    drukkerij- en zetterijwezen. Lorem Ipsum is de
-    standaard proeftekst in deze bedrijfstak sinds
-    de 16e eeuw</p>
+    <p class="section__future__paragraph">Voor deze editie gaan we boeken ten aanbieding stellen die een dystopische kijk hebben op onze toekomst. De best gereviewde boeken met een dystopische kijk op de toekomst kun je hiernaast terug vinden. Koop ook anderhande accesoires/gadgets voor je leesplezier te verbeteren.</p>
 
     <div class="center">
       <a href=""><div class="down"></div></a>
@@ -77,11 +74,7 @@
 
     <article class="product__information__overview">
       <h3 class="product__information__overview__title section__future__title">Blader tussen onze producten</h3>
-      <p class="product__information__overview__paragraph section__future__paragraph">Lorem Ipsum is slechts een
-          proeftekst uit het drukkerij- en
-          zetterijwezen. Lorem Ipsum is de
-          standaard proeftekst in deze bedrijfstak
-          sinds de 16e eeuw</p>
+      <p class="product__information__overview__paragraph section__future__paragraph alleproducten_p">Kies uit ons uitgebreid asssortiment aan leesgerief. Personaliseer je eigen bladwijzer, boekenbox(10 boeken), boekenstand en een agenda (2020). Je kunt ook voor de e-book alternatieven kiezen en lees-accesoires dat je helpen lezen! </p>
     <a class="buttonHumoRed__link" href="index.php?page=product&type=all">Alle producten</a>
       </article>
       </div>
@@ -91,8 +84,7 @@
     <h2 class="section__title section__title__abbo">Abbonement</h2>
 
     <aside class="abbonement__paragraph__container">
-      <p class= "abbonement__paragraph">Lorem Ipsum is slechts een proeftekst
-      uit het drukkerij- en zetterijwezen. </p>
+      <p class= "abbonement__paragraph">LEES DE HUMO OVERAL! Keuze uit digitaal papier of allebei </p>
     </aside>
 
     <article class="overview__humo__abbo">
