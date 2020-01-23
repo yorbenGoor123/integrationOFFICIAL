@@ -30,17 +30,35 @@ strong {
 }
 
 .error {
-  color: var(--colorMain);
+  color: black;
   margin-top: .4rem;
+  margin-bottom: 1rem;
+
 }
 
+.box {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.errorS {
+  border: 2px solid var(--colorMain);
+  color: var(--colorMain);
+}
+
+.infoS {
+  border: 2px solid lightgreen;
+  color: lightgreen;
+}
 @media (--only-large-screen) {
 
   .firstSection {
     display: grid;
     grid-template-columns: 10rem 20% 1fr 10rem;
-    grid-template-rows: 3rem 5rem 1fr 5rem;
-    grid-gap: var(--spacerBig);
+    grid-template-rows: 3rem 5rem 1fr;
+    grid-gap: 7rem;
   }
 
   .section__future {

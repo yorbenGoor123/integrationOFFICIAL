@@ -22,17 +22,20 @@
   line-height: 1.8rem;
   margin-bottom: var(--spacerSmall);
   font-size: var(--fontRegular);
+
 }
 
 .discount {
-  margin-top: var(--spacerBig);
+  margin-top: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   background-color: var(--colorMain);
   text-align: center;
-  height: 8rem;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-bottom: var(--spacerBig);
 }
 
@@ -135,6 +138,18 @@
   @media (--only-large-screen) {
     align-items: flex-start;
   }
+}
+
+.coupon__input {
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.submit__coupon {
+  border: white 1px solid;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
 }
 
 .input__number {

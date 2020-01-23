@@ -18,7 +18,7 @@
         $itemPrice = $item['product']['price'];
         $itemTotal = $item['quantity'] * $itemPrice;
         $totalPrice += $itemTotal;
-
+        $_SESSION['totalprice'] = $totalPrice;
 
       ?>
       <li class="basket__item">

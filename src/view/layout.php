@@ -184,6 +184,14 @@
       </li>
       </div>
     </ul>
+    <?php
+        if(!empty($_SESSION['error'])) {
+          echo '<div class="errorS box">' . $_SESSION['error'] . '</div>';
+        }
+        if(!empty($_SESSION['info'])) {
+          echo '<div class="infoS box">' . $_SESSION['info'] . '</div>';
+        }
+      ?>
  <?php echo $content;?>
 
 <footer class="footer">

@@ -14,11 +14,13 @@
   </article>
 
   <article class="discount">
-  <p class="discount__paragraph__strong">KRIJG 60% KORTING op onze boeken</p>
+  <p class="discount__paragraph__strong">KRIJG 60% KORTING OP AL ONZE BOEKEN</p>
   <p class="discount__paragraph">Vind de kortingscode op de flap van humo betreffende deze week</p>
   <form method="post" action="index.php?page=product">
-  <input type="text" name="coupon">
-  <input type="submit" name="actionCoupon" value="apply">
+
+  <input class="input coupon__input" type="text" name="coupon" required>
+  <p class="error"></p>
+  <input class="submit__coupon" type="submit" name="actionCoupon" value="apply">
   </form>
   </article>
 
@@ -98,17 +100,17 @@
       <div class="abbo__item">
       <p class="humo__overview__termijn">1 jaar</p>
       <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 1">
-      <a class="buttonHumoRed__link button__abbo" href="">€15,95 euro/maand</a>
+      <a class="buttonHumoRed__link button__abbo" href="index.php?page=abonnement">€15,95 euro/maand</a>
       </div class="abbo__item">
       <div class="abbo__item">
       <p class="humo__overview__termijn">2 jaar</p>
       <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 2">
-      <a class="buttonHumoRed__link button__abbo" href="">€14,36 euro/maand</a>
+      <a class="buttonHumoRed__link button__abbo" href="index.php?page=abonnement">€14,36 euro/maand</a>
       </div>
       <div class="abbo__item">
       <p class="humo__overview__termijn">3 jaar</p>
       <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 3">
-      <a class="buttonHumoRed__link button__abbo" href="">€112,76 euro/maand</a>
+      <a class="buttonHumoRed__link button__abbo" href="index.php?page=abonnement">€12,76 euro/maand</a>
       </div>
 
       <a class="buttonHumoRed__link button__abbo button__abbo__border" href="index.php?page=abonnement">Abonnement kiezen</a>

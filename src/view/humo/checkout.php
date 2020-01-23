@@ -16,7 +16,7 @@
 <div class="input__container">
 <label class="label" for="name">Naam:</label>
 <div>
-<p class="error"></p>
+<p class="error"><?php if(!empty($errors['name'])){ echo $errors['name'];} ?></p>
 <input class="input input__field" name="name" type="text" placeholder="Bijv: Yorben Goor" required>
 </div>
 </div>
@@ -24,7 +24,7 @@
 <div class="input__container">
 <label class="label" for="email">E-mail:</label>
 <div>
-<p class="error"></p>
+<p class="error"><?php if(!empty($errors['email'])){ echo $errors['email'];} ?></p>
 <input class="input input__field" name="email" type="e-mail" placeholder="Bijv: Example@gmail.com" required>
 </div>
 </div>
@@ -32,7 +32,7 @@
 <div class="input__container">
 <label class="label" for="Adress">Adress:</label>
 <div>
-<p class="error"></p>
+<p class="error"><?php if(!empty($errors['adress'])){ echo $errors['adress'];} ?></p>
 <input class="input input__field" name="street" type="e-mail" placeholder="Bijv: Example-street 23" required>
 </div>
 </div>
@@ -40,7 +40,7 @@
 <div class="input__container">
 <label class="label" for="Gemeente">Gemeente:</label>
 <div>
-<p class="error"></p>
+<p class="error"><?php if(!empty($errors['city'])){ echo $errors['city'];} ?></p>
 <input class="input input__field" name="gemeente" type="text" placeholder="Bijv: Zottegem" required>
 </div>
 </div>
@@ -48,16 +48,16 @@
 <div class="input__container">
 <label class="label" for="Gemeente">Postcode:</label>
 <div>
-<p class="error"></p>
-<input class="input input__field input__postcode" name="postcode" type="number" placeholder="8949" required>
+<p class="error"><?php if(!empty($errors['postal_code'])){ echo $errors['postal_code'];} ?></p>
+<input class="input input__field input__postcode" name="postcode" type="number" placeholder="8949" min="0" max="9999" required>
 </div>
 </div>
 
 <div class="input__container">
 <label class="label" for="Gemeente">Telefoon Nummer:</label>
 <div>
-<p class="error"></p>
-<input class="input input__field" name="number" type="number" placeholder="+32" required>
+<p class="error"><?php if(!empty($errors['telephone_number'])){ echo $errors['telephone_number'];} ?></p>
+<input class="input input__field" name="number" type="text" placeholder="+32" maxlength="12" required>
 </div>
 </div>
 </div>

@@ -1,6 +1,9 @@
 .radio__button__container__abo {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid var(--colorMain);
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .abo__radio {

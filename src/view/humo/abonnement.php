@@ -4,6 +4,7 @@
 <input type="hidden" name="pageFlow" value="personal info">
 
 <h2 class="pers__title">Kies verstandig!</h2>
+<p class="error__message">Wil je een digitale versie? of verkies je liever de papieren versie? Of je kan allebei kiezen! Whatever floats your boat!</p>
 <article class="overview__humo__abbo">
       <div class="abbo__item">
       <p class="humo__overview__termijn">1 jaar</p>

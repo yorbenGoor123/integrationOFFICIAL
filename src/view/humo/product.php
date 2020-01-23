@@ -14,18 +14,6 @@
 
   </form>
 
-  <form class="formSortby" action="">
-  <label class="sortbyLabel" for="filterLabel">sorteren op:</label>
-    <select name="options" class="sortbySelect" >
-      <option value="Prijs">Prijs</option>
-      <option value="Pagina's">Pagina's</option>
-      <option value="Datum">Datum</option>
-      <option value="A-Z">A-Z</option>
-  </select>
-
-  <input class="input input__button input__button__search button__small has-js" type="submit" value="zoek">
-  </form>
-
 
   <article class="product__items__section">
     <ul class="product__items">
@@ -35,7 +23,7 @@
           <div class="product__item__container">
           <span class="book__title info"><?php echo $product['name']; ?></span>
           <a href="index.php?page=detail-page&id=<?php echo $product['id'];?>"><img src="<?php echo $product['product__image'] ?>" alt="<?php echo $product['name']; ?>"> </a>
-          <a class="buttonHumoRed__link productPage__button" href="">Nu kopen --€<?php echo $product['price'];?></a>
+          <a class="buttonHumoRed__link productPage__button" href="index.php?page=detail-page&id=<?php echo $product['id'];?>">Nu kopen --€<?php echo $product['price'];?></a>
           <span class="delivery__date"><?php echo $product['delivery_time'] ?></span>
           </div>
           </li>

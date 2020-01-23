@@ -132,7 +132,7 @@ class HumoController extends Controller {
           'postal_code' => $_SESSION['personal_data']['postcode'],
           'telephone_number' => $_SESSION['personal_data']['number'],
           'delivery_option' => $_POST['leveroptie'],
-          'total_price' => 10
+          'total_price' => $_SESSION['totalprice']
         );
 
         $insertedOrder = $this->humoDAO->insertOrder($data);

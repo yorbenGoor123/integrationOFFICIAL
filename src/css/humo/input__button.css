@@ -24,10 +24,21 @@
 .buttonHumoTrans {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: var(--colorMain);
+  color: white;
+  display: flex;
+  justify-content: center;
   font-weight: var(--fontWeightBold);
   text-decoration: none;
   text-transform: uppercase;
+  background-color: var(--colorMain);
+  width: 100%;
+  height: 100%;
+  transition: .3s cubic-bezier(.6, -.28, .73, .04);
+}
+
+.buttonHumoTrans:hover {
+  background-color: white;
+  color: var(--colorMain);
 }
 
 .buttonHumoRed__link {
@@ -41,6 +52,13 @@
   text-transform: uppercase;
   font-weight: var(--fontWeightBold);
   margin-top: var(--spacerSmall);
+  transition: .3s cubic-bezier(.6, -.28, .73, .04);
+  border: 2px solid var(--colorMain);
+}
+
+.buttonHumoRed__link:hover {
+  background-color: white;
+  color: var(--colorMain);
 }
 
 .button__abbo {
