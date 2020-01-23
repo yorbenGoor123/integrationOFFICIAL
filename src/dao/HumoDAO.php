@@ -70,6 +70,28 @@ class HumoDAO extends DAO {
     return false;
   }
 
+  public function insertAbo($data) {
+    $errors = $this->validate( $data );
+    if (empty($errors)) {
+      $sql = "INSERT INTO `tblabonnementen` (`abonnementOrder_id`, `formula`, `name`, `email`, `adress`, `city`, `postal_code`, `telephone_number`, `delivery_option`) VALUES (:abonnementOrder_id, :formula, :name, :email, :adress, :city, :postal_code, :telephone_number, :delivery_option)";
+      $stmt = $this->pdo->prepare($sql);
+      $stmt->bindValue(':abonnementOrder_id', $data['abonnementOrder_id']);
+      $stmt->bindValue(':formula', $data['formula']);
+      $stmt->bindValue(':name', $data['name']);
+      $stmt->bindValue(':email', $data['email']);
+      $stmt->bindValue(':adress', $data['adress']);
+      $stmt->bindValue(':city', $data['city']);
+      $stmt->bindValue(':postal_code', $data['postal_code']);
+      $stmt->bindValue(':telephone_number', $data['telephone_number']);
+      $stmt->bindValue(':delivery_option', $data['delivery_option']);
+
+      if ($stmt->execute()) {
+        return $this->selectById($this->pdo->lastInsertId());
+      }
+    }
+    return false;
+  }
+
   public function insertOrderCustom($data) {
     $errors = $this->validate( $data );
     if (empty($errors)) {

@@ -1,0 +1,8 @@
+.radio__button__container__abo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.abo__radio {
+  color: var(--colorMain);
+}

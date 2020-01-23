@@ -72,3 +72,9 @@
 .input__BuyNow {
   font-size: 1rem;
 }
+
+.button__abbo__border {
+  background-color: white;
+  border: 2px solid var(--colorMain);
+  color: var(--colorMain);
+}

@@ -11,17 +11,33 @@ class HumoController extends Controller {
   }
 
   public function index() {
+
     $books = $this->humoDAO->selectAllBooks();
 
     $this->set('books', $books);
-    }
+  }
+
+  public function abonnement() {
+
+  }
 
   public function longread() {
 
-    }
+  }
 
   public function product() {
+    if (isset($_SESSION['personal_data'])){
+      unset($_SESSION['personal_data']);
+      }
 
+      if (isset($_SESSION['personalisatie'])){
+        unset($_SESSION['personalisatie']);
+        }
+
+
+    if (isset($_SESSION['abonnement'])){
+      unset($_SESSION['abonnement']);
+      }
 
 
     if(empty($_GET['type']) || $_GET['type'] === 'all'){
@@ -74,13 +90,6 @@ class HumoController extends Controller {
 
     public function basket() {
 
-      if (isset($_SESSION['personal_data'])){
-      unset($_SESSION['personal_data']);
-      }
-
-      if (isset($_SESSION['personalisatie'])){
-        unset($_SESSION['personalisatie']);
-        }
       if (!empty($_POST['remove'])) {
         // 1 specifiek item verwijderen uit de cart - zie aparte functie
         $this->_handleRemove();
@@ -108,6 +117,10 @@ class HumoController extends Controller {
     if (!empty($_POST['personalisatie'])) {
       $_SESSION['personalisatie'] = $_POST;
       }
+
+    if(!empty($_POST['abonnement'])){
+      $_SESSION['abonnement'] = $_POST;
+    }
 
     if(!empty($_POST['action'])){
       if($_POST['action'] == 'insertOrder'){
@@ -155,6 +168,32 @@ class HumoController extends Controller {
 
         $insertedOrderCustom = $this->humoDAO->insertOrderCustom($data);
         if(!$insertedOrderCustom){
+          $errors = $this->humoDAO->validate($data);
+          $this->set('errors',$errors);
+        }else{
+          $_SESSION['info'] = 'Bedankt voor je aankoop';
+          header('Location:index.php?page=product');
+          exit();
+        }
+      }
+    }
+
+    if(!empty($_POST['action'])){
+      if($_POST['action'] == 'insertAbo'){
+        $data = array(
+          'formula' => $_SESSION['abonnement']['choice'],
+          'name' => $_SESSION['personal_data']['name'],
+          'email' => $_SESSION['personal_data']['email'],
+          'adress' => $_SESSION['personal_data']['street'],
+          'city' => $_SESSION['personal_data']['gemeente'],
+          'postal_code' => $_SESSION['personal_data']['postcode'],
+          'telephone_number' => $_SESSION['personal_data']['number'],
+          'delivery_option' => $_POST['leveroptie'],
+          'total_price' => 10
+        );
+
+        $insertedAbo = $this->humoDAO->insertAbo($data);
+        if(!$insertedAbo){
           $errors = $this->humoDAO->validate($data);
           $this->set('errors',$errors);
         }else{

@@ -43,6 +43,10 @@ $routes = array(
   'personalisatie' => array(
     'controller' => 'Humo',
     'action' => 'personalisatie',
+  ),
+  'abonnement' => array(
+    'controller' => 'Humo',
+    'action' => 'abonnement',
   )
 
   );

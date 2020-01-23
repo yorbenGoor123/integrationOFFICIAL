@@ -3,7 +3,8 @@
 <form method="post" action="index.php?page=checkout&pageFlow=personal+info">
 <input type="hidden" name="page" value="checkout">
 <input type="hidden" name="pageFlow" value="personal info">
-
+<h2 class="pers__title">Personaliseer je product!</h2>
+<p class="error__message">Preview coming soon!</p>
 <div class="accordion__container">
 <button class="accordion">Product</button>
 <div class="panel">
@@ -30,51 +31,51 @@
 </div>
 
 <div class="accordion__container">
-<button class="accordion">Color</button>
+<button class="accordion">Kleur</button>
 <div class="panel">
   <div class="input__container__pers">
-  <label for="color">Red</label>
-  <input type="radio" name="color" value="blue">
+  <label for="color">Rood</label>
+  <input type="radio" name="color" value="blue" required>
   </div>
 
   <div class="input__container__pers">
-  <label for="color">blue</label>
-  <input type="radio" name="color" value="blue">
+  <label for="color">blauw</label>
+  <input type="radio" name="color" value="blue" required>
   </div>
 
   <div class="input__container__pers">
-  <label for="color">green</label>
-  <input type="radio" name="color" value="green">
+  <label for="color">groen</label>
+  <input type="radio" name="color" value="green" required>
   </div>
 
   <div class="input__container__pers">
-  <label for="color">Yellow</label>
-  <input type="radio" name="color" value="yellow">
+  <label for="color">Geel</label>
+  <input type="radio" name="color" value="yellow" required>
   </div>
 </div>
 </div>
 
 <div class="accordion__container">
-<button class="accordion">Patern</button>
+<button class="accordion">Patroon</button>
 <div class="panel">
 <div class="input__container__pers">
   <label for="color">Streepjes</label>
-  <input type="radio" name="patern" value="streepjes">
+  <input type="radio" name="patern" value="streepjes" required>
   </div>
 
   <div class="input__container__pers">
   <label for="color">Vierkantjes</label>
-  <input type="radio" name="patern" value="vierkantjes">
+  <input type="radio" name="patern" value="vierkantjes" required>
   </div>
 
   <div class="input__container__pers">
-  <label for="color">Dotted</label>
-  <input type="radio" name="patern" value="dotted">
+  <label for="color">Stippen</label>
+  <input type="radio" name="patern" value="dotted" required>
   </div>
 
   <div class="input__container__pers">
   <label for="color">Golven</label>
-  <input type="radio" name="patern" value="golven">
+  <input type="radio" name="patern" value="golven" required>
   </div>
 </div>
 </div>

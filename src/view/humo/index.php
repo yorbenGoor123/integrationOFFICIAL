@@ -98,18 +98,20 @@
       <div class="abbo__item">
       <p class="humo__overview__termijn">1 jaar</p>
       <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 1">
-      <a class="buttonHumoRed__link button__abbo" href="">Nu kopen €17</a>
+      <a class="buttonHumoRed__link button__abbo" href="">€15,95 euro/maand</a>
       </div class="abbo__item">
       <div class="abbo__item">
       <p class="humo__overview__termijn">2 jaar</p>
       <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 2">
-      <a class="buttonHumoRed__link button__abbo" href="">Nu kopen €17</a>
+      <a class="buttonHumoRed__link button__abbo" href="">€14,36 euro/maand</a>
       </div>
       <div class="abbo__item">
       <p class="humo__overview__termijn">3 jaar</p>
       <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 3">
-      <a class="buttonHumoRed__link button__abbo" href="">Nu kopen €17</a>
+      <a class="buttonHumoRed__link button__abbo" href="">€112,76 euro/maand</a>
       </div>
+
+      <a class="buttonHumoRed__link button__abbo button__abbo__border" href="index.php?page=abonnement">Abonnement kiezen</a>
     </article>
   </section>
 
