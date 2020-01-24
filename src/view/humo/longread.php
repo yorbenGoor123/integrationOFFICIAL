@@ -85,7 +85,7 @@
           </div>
           </div>
           <div class="center">
-                    <a href="s"><div class="down"></div></a>
+                    <a href="index.php?page=longread#section1"><div class="down"></div></a>
           </div>
 
           <div class="social__media__desktop">
