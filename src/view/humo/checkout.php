@@ -130,10 +130,18 @@
     } ?>
 
 <?php if(!empty($_GET["pageFlow"])) {
-          if($_GET['pageFlow'] == "betaalopties"){ ?>
+          if($_GET['pageFlow'] == "thanks!"){ ?>
 
-<section>
-  <h2>hello world!</h2>
+<section class="congratulations">
+  <h2 class="info__message__title">Jij bent cool!</h2>
+  <img class="info__mail__photo" src="assets/humo/mail.svg" alt="je zal een mail krijgen met betaal info">
+  <p class="info__mail__con">Je zal een e-mail ontvangen met alle praktische informatie</p>
+  <p class="thanks">Bedankt voor uw aankoop!</p>
+
+  <div class="con__button__wrapper">
+    <a class="link__website__humo" href="index.php">Naar humo website</a>
+    <a class="buttonHumoRed__link" href="index.php?page=product">Verder winkelen</a>
+  </div>
 </section>
 
 <?php

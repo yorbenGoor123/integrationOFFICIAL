@@ -148,7 +148,7 @@ class HumoController extends Controller {
           $this->set('errors',$errors);
         }else{
           $_SESSION['info'] = 'Bedankt voor je aankoop';
-          header('Location:index.php?page=product');
+          header('Location:index.php?page=checkout&pageFlow=thanks!');
           if (isset($_SESSION['cart'])){
             unset($_SESSION['cart']);
             }
@@ -179,7 +179,7 @@ class HumoController extends Controller {
           $this->set('errors',$errors);
         }else{
           $_SESSION['info'] = 'Bedankt voor je aankoop';
-          header('Location:index.php?page=product');
+          header('Location:index.php?page=checkout&pageFlow=thanks!');
           exit();
         }
       }
@@ -205,7 +205,7 @@ class HumoController extends Controller {
           $this->set('errors',$errors);
         }else{
           $_SESSION['info'] = 'Bedankt voor je aankoop';
-          header('Location:index.php?page=product');
+          header('index.php?page=checkout&pageFlow=thanks!');
           exit();
         }
       }

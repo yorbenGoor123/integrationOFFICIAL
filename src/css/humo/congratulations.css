@@ -1,0 +1,33 @@
+.congratulations {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info__message__title {
+  font-size: 4rem;
+  font-weight: var(--fontWeightBold);
+  margin-bottom: 3rem;
+}
+
+.info__mail__photo {
+  margin-bottom: 3rem;
+}
+
+.info__mail__con {
+  font-size: 1.5rem;
+  font-weight: var(--fontWeightBold);
+  margin-bottom: 2rem;
+}
+
+.thanks {
+  color: var(--colorMain);
+  font-size: 1.3rem;
+  margin-bottom: 6rem;
+}
+
+.link__website__humo {
+  margin-right: 2rem;
+  color: var(--colorMain);
+}

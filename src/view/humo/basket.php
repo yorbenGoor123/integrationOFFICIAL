@@ -32,7 +32,6 @@
           </div>
 
           <button type="submit" value="<?php echo $item['product']['id'];?>" name="remove" class="remove__button basket__item__info"> Remove </button>
-          <button class="remove__button basket__item__info" type="submit" name="action" value="update">Update Cart</button>
         </div>
 
         <div class="price__basket__overview">
@@ -68,18 +67,19 @@
   </div>
 
 </section>
-</form>
 </div>
 
 <div class="kassa__button">
 
-<form method="get" action="index.php?page=checkout">
 
-<input type="hidden" name="page" value="checkout">
-<input type="hidden" name="pageFlow" value="personal info">
 
 
 <?php if(!empty($_SESSION['cart'])){ ?>
+<button class="remove__button basket__item__info" type="submit" name="action" value="update">Update Cart</button>
+</form>
+<form method="get" action="index.php?page=checkout">
+<input type="hidden" name="page" value="checkout">
+<input type="hidden" name="pageFlow" value="personal info">
 <input class="buttonHumoRed__link" type="submit" value="naar de kassa">
 <?php } ?>
 
