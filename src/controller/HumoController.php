@@ -11,9 +11,6 @@ class HumoController extends Controller {
   }
 
   public function index() {
-    if(!empty($_POST['actionCoupon'])){
-      $_SESSION['coupon'] = $_POST;
-    }
 
     $books = $this->humoDAO->selectAllBooks();
 
@@ -40,10 +37,6 @@ class HumoController extends Controller {
 
     if (isset($_SESSION['abonnement'])){
       unset($_SESSION['abonnement']);
-      }
-
-    if (isset($_SESSION['totalprice'])){
-        unset($_SESSION['totalprice']);
       }
 
 
@@ -148,7 +141,7 @@ class HumoController extends Controller {
           $this->set('errors',$errors);
         }else{
           $_SESSION['info'] = 'Bedankt voor je aankoop';
-          header('Location:index.php?page=checkout&pageFlow=thanks!');
+          header('Location:index.php?page=product');
           if (isset($_SESSION['cart'])){
             unset($_SESSION['cart']);
             }
@@ -179,7 +172,7 @@ class HumoController extends Controller {
           $this->set('errors',$errors);
         }else{
           $_SESSION['info'] = 'Bedankt voor je aankoop';
-          header('Location:index.php?page=checkout&pageFlow=thanks!');
+          header('Location:index.php?page=product');
           exit();
         }
       }
@@ -205,7 +198,7 @@ class HumoController extends Controller {
           $this->set('errors',$errors);
         }else{
           $_SESSION['info'] = 'Bedankt voor je aankoop';
-          header('index.php?page=checkout&pageFlow=thanks!');
+          header('Location:index.php?page=product');
           exit();
         }
       }

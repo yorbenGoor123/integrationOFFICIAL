@@ -12,17 +12,17 @@
       <a class="buttonHumoRed__link button__abbo" href="">€15,95 euro/maand</a>
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">digitaal</label>
-      <input class="abo__radio" type="radio" name="choice" value="digitaal__1jaar">
+      <input class="abo__radio" type="radio" name="choice" value="digitaal__1jaar" required>
       </div>
 
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">papier</label>
-      <input class="abo__radio" type="radio" name="choice" value="papier__1jaar">
+      <input class="abo__radio" type="radio" name="choice" value="papier__1jaar" required>
       </div>
 
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">digitaal+papier</label>
-      <input class="abo__radio" type="radio" name="choice" value="allebei__1jaar">
+      <input class="abo__radio" type="radio" name="choice" value="allebei__1jaar" required>
       </div>
       </div>
       <div class="abbo__item">
@@ -31,17 +31,17 @@
       <a class="buttonHumoRed__link button__abbo" href="">€14,36 euro/maand</a>
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">digitaal</label>
-      <input class="abo__radio" type="radio" name="choice" value="digitaal__2jaar">
+      <input class="abo__radio" type="radio" name="choice" value="digitaal__2jaar" required>
       </div>
 
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">papier</label>
-      <input class="abo__radio" type="radio" name="choice" value="papier__2jaar">
+      <input class="abo__radio" type="radio" name="choice" value="papier__2jaar" required>
       </div>
 
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">digitaal+papier</label>
-      <input class="abo__radio" type="radio" name="choice" value="allebei__2jaar">
+      <input class="abo__radio" type="radio" name="choice" value="allebei__2jaar" required>
       </div>
       </div>
       <div class="abbo__item">
@@ -50,17 +50,17 @@
       <a class="buttonHumoRed__link button__abbo" href="">€12,76 euro/maand</a>
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">digitaal</label>
-      <input class="abo__radio" type="radio" name="choice" value="digitaal__3jaar">
+      <input class="abo__radio" type="radio" name="choice" value="digitaal__3jaar" required>
       </div>
 
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">papier</label>
-      <input class="abo__radio" type="radio" name="choice" value="papier__3jaar">
+      <input class="abo__radio" type="radio" name="choice" value="papier__3jaar" required>
       </div>
 
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">digitaal+papier</label>
-      <input class="abo__radio" type="radio" name="choice" value="allebei__3jaar">
+      <input class="abo__radio" type="radio" name="choice" value="allebei__3jaar" required>
       </div>
 
       </div>

@@ -80,9 +80,9 @@
 <section class="section__personalInfo">
 <h2 class="checkout__title">Levering opties</h2>
 
-<form method="post" action="index.php?page=checkout&pageFlow=betaalopties">
+<form method="post" action="index.php?page=checkout&pageFlow=thanks!">
 <input type="hidden" name="page" value="checkout">
-<input type="hidden" name="pageFlow" value="betaalopties">
+<input type="hidden" name="pageFlow" value="thanks!">
 
 
 <div class="container">
