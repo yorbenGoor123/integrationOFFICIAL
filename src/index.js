@@ -138,10 +138,10 @@ import ScrollMagic from 'scrollmagic';
     parallax();
     scrollMagicProjects();
     scrollMagicProjectsRight();
-    fadeOut();
     loader();
     moveShell();
     displayTextChoice();
+    fadeOut();
   };
 
   init();

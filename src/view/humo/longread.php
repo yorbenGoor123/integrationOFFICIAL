@@ -208,7 +208,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 
  </p>
  </div>
-    <div class="button__pulsating grid-position3"><span class="pulsating__button shell__button"></span><p class="pulsating__button__text keys__pulsating__text">Open easter egg</p></div>
+    <div class="button__pulsating grid-position3"><span class="pulsating__button shell__button"></span><p class="pulsating__button__text">Open easter egg</p></div>
     </div>
 
 
