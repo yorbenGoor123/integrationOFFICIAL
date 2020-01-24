@@ -52,6 +52,7 @@ strong {
   border: 2px solid lightgreen;
   color: lightgreen;
 }
+
 @media (--only-large-screen) {
 
   .firstSection {

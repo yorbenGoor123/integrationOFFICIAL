@@ -83,7 +83,6 @@
   }
 }
 
-
 .previous__image {
   transform: rotate(180deg);
 }
@@ -228,7 +227,6 @@
   margin-bottom: 5rem;
 }
 
-
 @media (--only-large-screen) {
 
   .thirdSection {
@@ -292,4 +290,3 @@
   margin: var(--spacerBig);
 
 }
-

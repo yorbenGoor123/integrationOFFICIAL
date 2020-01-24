@@ -1,7 +1,7 @@
 @font-face {
   font-family: sci-fi;
-  src: url('/assets/fonts/ScifiAdventure.woff') format('woff1');
-  src: url('/assets/fonts/ScifiAdventure.woff2') format('woff2');
+  src: url(/assets/fonts/ScifiAdventure.woff) format('woff1');
+  src: url(/assets/fonts/ScifiAdventure.woff2) format('woff2');
 }
 
 body {
