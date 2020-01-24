@@ -276,7 +276,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 </section>
 
 <section class="section5" id="sleutels">
-<h2 class="section__title glow grid-position1 digit__right center__text">Eerst moet je men sleutels vinden!</h2>
+<h2 class="section__title glow grid-position1 digit center__text">Eerst moet je men sleutels vinden!</h2>
 <div id="particles-js2"> </div>
 <div class="key__images__container">
   <div class="copper__key container__key">
