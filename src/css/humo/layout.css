@@ -57,7 +57,7 @@ strong {
   .firstSection {
     display: grid;
     grid-template-columns: 10rem 20% 1fr 10rem;
-    grid-template-rows: 3rem 10rem 1fr;
+    grid-template-rows: 3rem 10rem 30rem;
     grid-gap: 2rem;
   }
 

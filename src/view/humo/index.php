@@ -33,7 +33,7 @@
   </div>
 
   </article>
-  <div class="previous__next__buttons">
+  <div class="previous__next__buttons horizontaal">
   <a class="button__previousAndNext next" href=""><img class="next__image" src="assets/humo/arrow.svg" alt="arrow_button"></a>
   <p class="scroll__hor">Horizontaal scrollen</p>
   </div>

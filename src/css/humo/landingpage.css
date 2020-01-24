@@ -15,18 +15,17 @@
   font-size: var(--fontTitle);
   margin-bottom: var(--spacerBig);
   margin-top: var(--spacerBig);
+  margin-left: 1rem;
 
 }
 
 .section__future__paragraph {
   line-height: 1.8rem;
-  margin-bottom: var(--spacerSmall);
   font-size: var(--fontRegular);
+  margin: 1rem;
 }
 
 .alleproducten_p {
-  width: 100%;
-
   @media (--only-large-screen) {
     width: 70%;
   }
@@ -222,8 +221,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
+
+.horizontaal {
+  margin-bottom: 5rem;
+}
+
 
 @media (--only-large-screen) {
 
@@ -243,6 +247,8 @@
 
 .abbonement__paragraph__container {
   background-color: var(--colorMain);
+  padding: 2rem;
+  margin-top: 2rem;
 }
 
 .abbonement__paragraph {
@@ -253,7 +259,6 @@
   justify-content: center;
   font-size: 1.8rem;
   text-align: center;
-  margin-top: 4rem;
   line-height: 3rem;
 }
 
