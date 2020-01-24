@@ -497,7 +497,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
         <p class="section__title glow grid-position1 digit__right center__text of__section7">of</p>
 
         <section class="container__text__realWorld oasisWorld__cont">
-          <h2 class="section__title glow grid-position1 center__text">de oasis?</h2>
+          <h2 class="section__title glow grid-position1 center__text">de oasis</h2>
           <p class="text__realWorld section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van vandaag. Een boek dat je een indirecte les geeft over internetveiligheid: vertrouw nooit iemand online. Mensen kunnen je privé gegevens achterhalen met de minste informatie dat je hen heeft. Parzival gaf zeer kleine tips waardoor zijn vijand metteen zijn echte identiteit kon ontdekken en een aanval kon plannen op zijn huis en zijn tante overleed. Gelukkig wist de vijand niet af van zijn geheime schuilplek waardoor hij zich voor bepaalde duur kon verschuilen onder de radar.</p>
         </section>
 
