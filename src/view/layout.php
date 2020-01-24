@@ -52,8 +52,8 @@
         </div>
 
         <div class="header__language">
-            <a class="language language__nl" href="">Nl</a>
-            <a class="language language__en" href="">En</a>
+            <a class="language language__nl" href="NL">Nl</a>
+            <a class="language language__en" href="EN">En</a>
         </div>
 
         <div class="socialMedia">
@@ -148,7 +148,7 @@
       </li>
 
       <li class="menu__item__basket menu__item__choice">
-      <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt=""></a>
+      <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt="basket"></a>
       </li>
       </div>
     </ul>
@@ -174,7 +174,7 @@
 </header>
 
 <ul>
-<div class="menu__button__basket__wrapper menu__button__basket__wrapper__desktop">
+<li class="menu__button__basket__wrapper menu__button__basket__wrapper__desktop">
       <li class="menu__item__button menu__item__choice">
         <a class=menu__item__button__link href="index.php?page=product">Producten</a>
       </li>
@@ -182,7 +182,7 @@
       <li class="menu__item__basket menu__item__choice">
       <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt=""></a>
       </li>
-      </div>
+  </li>
     </ul>
     <?php
         if(!empty($_SESSION['error'])) {

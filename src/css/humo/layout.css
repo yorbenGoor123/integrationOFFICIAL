@@ -53,6 +53,10 @@ strong {
   color: lightgreen;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (--only-large-screen) {
 
   .firstSection {

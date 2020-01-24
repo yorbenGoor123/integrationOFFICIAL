@@ -16,6 +16,7 @@
   <form method="post" action="index.php">
   <input class="input coupon__input" type="text" name="coupon" required>
   <p class="error"></p>
+  <label class="hidden" for="coupon">coupon</label>
   <input class="submit__coupon" type="submit" name="actionCoupon" value="apply">
   </form>
   </article>
