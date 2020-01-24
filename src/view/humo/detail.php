@@ -54,10 +54,10 @@
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
   <?php } else if($product['delivery_time'] == 'uitverkocht'){ ?>
     <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> Reserveer </button>
-    <a href="index.php?page=longread" class="longread__button input input__button input__Ebook" type="submit" value="Lees longreader">Lees longread</a>
+    <a href="index.php?page=longread" class="input input__button input__Ebook" type="submit" value="Lees longreader">Lees Verhaal</a>
   <?php } else{ ?>
   <button name="action" class="input input__button input__BuyNow" type="submit" value="add"> koop nu </button>
-  <a href="index.php?page=longread" class="longread__button input input__button input__Ebook" type="submit" value="Lees longreader">Lees longread</a>
+  <a href="index.php?page=longread" class="input input__button input__Ebook" type="submit">Lees verhaal</a>
   <?php } ?>
   </div>
 </form>

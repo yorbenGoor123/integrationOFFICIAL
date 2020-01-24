@@ -93,10 +93,6 @@
   margin: var(--spacerSmall);
 }
 
-.previous__next__buttons {
-  margin-bottom: 4rem;
-}
-
 .book__article__image__wrapper {
   display: flex;
   align-items: flex-start;
@@ -226,6 +222,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 6rem;
 }
 
 @media (--only-large-screen) {

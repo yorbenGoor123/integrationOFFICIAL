@@ -49,7 +49,9 @@
 .pers__title, .error__message {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  text-align: center;
+  margin: 1rem;
+  line-height: 1.8rem;
 }
 
 .pers__title {

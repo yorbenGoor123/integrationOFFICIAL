@@ -21,6 +21,9 @@
   border: 2px solid var(--colorMain);
   color: var(--colorMain);
   transition: .3s cubic-bezier(.17, .88, .32, 1.27);
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .input__Ebook:hover {
@@ -117,4 +120,10 @@
 .abbo__button__container {
   display: flex;
   justify-content: center;
+}
+
+.button__wrapper {
+  margin-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
 }

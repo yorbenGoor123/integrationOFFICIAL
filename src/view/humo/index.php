@@ -5,7 +5,7 @@
     <p class="section__future__paragraph">Voor deze editie gaan we boeken ten aanbieding stellen die een dystopische kijk hebben op onze toekomst. De best gereviewde boeken met een dystopische kijk op de toekomst kun je hiernaast terug vinden. Koop ook anderhande accesoires/gadgets voor je leesplezier te verbeteren.</p>
 
     <div class="center">
-      <a href=""><div class="down"></div></a>
+      <a href="index.php#products"><div class="down"></div></a>
       <p class="down__alle">alle producten</p>
     </div>
   </article>
@@ -41,7 +41,7 @@
   </section>
 
 
-  <section class="secondSection">
+  <section class="secondSection" id="products">
     <h2 class="section__title section__title__products">producten</h2>
 
 
