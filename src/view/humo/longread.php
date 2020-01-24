@@ -479,14 +479,26 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
         <div class="section__choice__wrapper">
         <div class="choice choice__oasis">
           <p class="choice__title">De oasis</p>
-          <span class="pulsating__button"></span>
+          <span class="pulsating__button button__oasisWorld"></span>
         </div>
 
         <div class="choice choice__realWorld">
           <p class="choice__title">De echte wereld</p>
-          <span class="pulsating__button"></span>
+          <span class="pulsating__button button__realWorld"></span>
         </div>
         </div>
+        </section>
+
+        <section class="container__text__realWorld realWorld__cont">
+          <h2 class="section__title glow grid-position1 center__text">De echte wereld</h2>
+          <p class="text__realWorld section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van vandaag. Een boek dat je een indirecte les geeft over internetveiligheid: vertrouw nooit iemand online. Mensen kunnen je privé gegevens achterhalen met de minste informatie dat je hen heeft. Parzival gaf zeer kleine tips waardoor zijn vijand metteen zijn echte identiteit kon ontdekken en een aanval kon plannen op zijn huis en zijn tante overleed. Gelukkig wist de vijand niet af van zijn geheime schuilplek waardoor hij zich voor bepaalde duur kon verschuilen onder de radar.</p>
+        </section>
+
+        <p class="section__title glow grid-position1 digit__right center__text of__section7">of</p>
+
+        <section class="container__text__realWorld oasisWorld__cont">
+          <h2 class="section__title glow grid-position1 center__text">de oasis?</h2>
+          <p class="text__realWorld section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van vandaag. Een boek dat je een indirecte les geeft over internetveiligheid: vertrouw nooit iemand online. Mensen kunnen je privé gegevens achterhalen met de minste informatie dat je hen heeft. Parzival gaf zeer kleine tips waardoor zijn vijand metteen zijn echte identiteit kon ontdekken en een aanval kon plannen op zijn huis en zijn tante overleed. Gelukkig wist de vijand niet af van zijn geheime schuilplek waardoor hij zich voor bepaalde duur kon verschuilen onder de radar.</p>
         </section>
 
         <section class="section__justRemember">

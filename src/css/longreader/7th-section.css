@@ -2,6 +2,36 @@
   display: none;
 }
 
+.container__text__realWorld {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+  @media (--only-large-screen) {
+    display: none;
+  }
+}
+
+.text__realWorld {
+  width: 95%;
+  text-align: center;
+
+  @media (--only-large-screen) {
+    width: 50%;
+  }
+
+}
+
+.of__section7 {
+  display: block;
+
+  @media (--only-large-screen) {
+    display: none;
+  }
+}
+
 @media screen and (--only-large-screen) {
 
   .section__choice {

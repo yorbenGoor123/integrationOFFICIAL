@@ -108,6 +108,30 @@ import ScrollMagic from 'scrollmagic';
     $buttonShell.addEventListener('click', handleCLickMove);
   };
 
+  const handleClickReal = () => {
+    const $realWorldCont = document.querySelector(`.realWorld__cont`);
+    const $oasisWorldCont = document.querySelector(`.oasisWorld__cont`);
+    $realWorldCont.style.display = 'flex';
+    $oasisWorldCont.style.display = 'none';
+    $realWorldCont.classList.add('imageFadeIn');
+
+  };
+
+  const handleClickOasis = () => {
+    const $realWorldCont = document.querySelector(`.realWorld__cont`);
+    const $oasisWorldCont = document.querySelector(`.oasisWorld__cont`);
+    $realWorldCont.style.display = 'none';
+    $oasisWorldCont.style.display = 'flex';
+    $oasisWorldCont.classList.add('imageFadeIn');
+  };
+
+  const displayTextChoice = () => {
+    const $buttonRealWorld = document.querySelector(`.button__realWorld`);
+    const $buttonOasisWorld = document.querySelector(`.button__oasisWorld`);
+    $buttonRealWorld.addEventListener('click', handleClickReal);
+    $buttonOasisWorld.addEventListener('click', handleClickOasis);
+  };
+
 
 
   const init = () => {
@@ -117,6 +141,7 @@ import ScrollMagic from 'scrollmagic';
     fadeOut();
     loader();
     moveShell();
+    displayTextChoice();
   };
 
   init();
