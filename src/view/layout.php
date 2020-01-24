@@ -32,8 +32,8 @@
 <h1 class="header__titleLogo"> <span class="logo__span ready">Ready</span> <span class="logo__span player">player one</span class="logo__span"> </h1>
 <nav role="navigation">
     <ul class="menu__items__toggleOff">
-      <li class="menu__item"> <a class="menu__item__link" href="">Read my story</a></li>
-      <li class="menu__item"> <a class="menu__item__link" href="">Buy book</a></li>
+      <li class="menu__item"> <a href="index.php?page=longread#section1" class="menu__item__link" href="">Lees verhaal</a></li>
+      <li class="menu__item"> <a href="detail-page&id=1" class="menu__item__link" href="">Koop boek</a></li>
     </ul>
 
 
@@ -47,8 +47,8 @@
 
       <ul id="menu">
         <div class="menu__items">
-        <li class="menu__item"> <a class="menu__item__link" href="">Read my story</a></li>
-        <li class="menu__item"> <a class="menu__item__link" href="">Buy book</a></li>
+        <li class="menu__item"> <a class="menu__item__link" href="">Lees verhaal</a></li>
+        <li class="menu__item"> <a class="menu__item__link" href="">Koop boek</a></li>
         </div>
 
         <div class="header__language">
@@ -63,7 +63,7 @@
                 <a class="socialMedia__link" href=""><img class="socialMedia__image" src="/assets/images/twitter.svg" alt="twitter"></a>
             </div>
 
-            <a class="socialMedia__presented__link" href=""><img class="socialMedia__presented__image" src="assets/images/presented.svg" alt="presented by humo"></a>
+            <a class="socialMedia__presented__link" href="index.php"><img class="socialMedia__presented__image" src="assets/images/presented.svg" alt="presented by humo"></a>
         </div>
       </ul>
     </div>
@@ -88,7 +88,7 @@
 
 
     <footer class="footer">
-        <img class="presented__humo__footer" src="assets/images/presented.svg" alt="">
+        <a href="index.php"><img class="presented__humo__footer" src="assets/images/presented.svg" alt="Humo_Logo"></a>
 
         <div class="socialMedia__footer">
             <div class="socialMedia__wrapper__footer">

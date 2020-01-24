@@ -79,9 +79,9 @@
 
           </div>
             <div class="hero__text">
-            <span class="green__title hero__item">Humanity</span>
-            <p class= "hero__paragraph__sub hero__item">destroyed the world</p>
-            <p class="hero__paragraph__small hero__item">so they created their own world <br> called <span class="green__text">the oasis</span></p>
+            <span class="green__title hero__item">De mensheid</span>
+            <p class= "hero__paragraph__sub hero__item">heeft de wereld vernield</p>
+            <p class="hero__paragraph__small hero__item">dus ze hebben hun eigen wereld <br> gemaakt Genaamd <span class="green__text">de oasis</span></p>
           </div>
           </div>
           <div class="center">
@@ -95,12 +95,12 @@
                 <a class="social__item__desktop" href=""><img class="social__item__desktop__image" src="/assets/images/twitter.svg" alt="twitter"></a>
             </div>
 
-            <a class="" href=""><img class="" src="assets/images/presented.svg" alt="presented by humo"></a>
+            <a class="" href="index.php"><img class="" src="assets/images/presented.svg" alt="presented by humo"></a>
         </div>
 
         </section>
 
-        <section class="section2">
+        <section class="section2" id="section1">
         <h2 class="title__hidden">Meet james halliday</h2>
 
         <div class="text__wrapper">
@@ -108,7 +108,7 @@
             HALLIDAY</h2>
 
         <p class="section2__paragraph digit">De man die THE OASIS heeft gecreëerd. Hij beschreef het als een virtuele wereld waarin al je dromen uitkomen. Een plaats waar je een tweede leven kunt leven als je echte leventje maar wat saai is. Op een zekere dag brak de dag des oordeels aan voor James halliday. Hij stierf… maar niet onvoorbereid! Op een groot scherm speelde zich een mededeling af van hem dat de competitiviteit in de spelers naar boven haalde. Een easter egg (een geheim in het spel dat moeilijk te vinden is) zou het lot van heel the oasis veranderen. Degene die het easter egg zou ontrafelen, was de enige echte eigenaar van the oasis. In het begin waren alle spelers vol enthousiasme aan het zoeken naar het easter egg maar zonder succes. Het easter egg is na 5 jaar nog niet ontrafelt en spelers hebben de hoop opgegeven. Alleen degene die James Halliday vanbinnen en vanbuiten kenden zouden de sleutels van de droomwereld kunnen verkrijgen. Alleen de andere eigenaar van the oasis kende James door en door. Totdat een zekere Parzival (Wade Watts) ,een naam gebaseerd op de arthurian ridder, een hint ontdekte dat het tegendeel bewijst. </p>
-            <div class="button__pulsating"><span class="pulsating__button"></span> <a class="pulsating__button__text" href="">Mijn droomwereld ontdekken</a></div>
+            <div class="button__pulsating"> <p class="james__halliday__speech"> Hey! ik ben James Halliday. Aangenaam!</p></div>
             </div>
 
           <div id="scene" class="background-image">
@@ -208,11 +208,12 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 
  </p>
  </div>
-    <div class="button__pulsating grid-position3"><span class="pulsating__button"></span> <a class="pulsating__button__text" href="">Open Easter egg</a></div>
+    <div class="button__pulsating grid-position3"><span class="pulsating__button shell__button"></span> <a class="pulsating__button__text" href="">Open Easter egg</a></div>
     </div>
 
-  <div id="scene2" class="background-image__section4">
 
+    <a  class="look__inside_button" href="">Look inside</a>
+  <div id="scene2" class="background-image__section4">
 
     <picture class="image__section4__part" data-depth="0.3">
       <source
@@ -234,21 +235,40 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 
     <picture class="image__section4__part glow" data-depth="0.6">
     <source
-        srcset="assets/images/sectie4/webp/light_0000s_0000_Group-2.webp 100w"
+        srcset="assets/images/sectie4/webp/light_0000s_0000_Group.webp 100w"
         sizes="100vw"
         type="image/webp"
       />
       <source
-        srcset="assets/images/sectie4/light_0000s_0000_Group-2.png  100w"
+        srcset="assets/images/sectie4/light_0000s_0000_Group.png  100w"
         sizes="100vw"
         type="image/png"
       />
       <img
         class="image__section4__part"
-        src="assets/images/sectie4/light_0000s_0000_Group-2.png"
+        src="assets/images/sectie4/light_0000s_0000_Group.png"
         alt="een gloeiend ei in de natuur"
       />
     </picture>
+
+    <picture class="image__section4__part classlistAddMove glow" data-depth="0.6">
+    <source
+        srcset="assets/images/sectie4/webp/light_0000s_0000_Layer-2.webp 100w"
+        sizes="100vw"
+        type="image/webp"
+      />
+      <source
+        srcset="assets/images/sectie4/light_0000s_0000_Layer-2.png  100w"
+        sizes="100vw"
+        type="image/png"
+      />
+      <img
+        class="image__section4__part"
+        src="assets/images/sectie4/light_0000s_0000_Layer-2.png.png"
+        alt="een gloeiend ei in de natuur"
+      />
+    </picture>
+
 
 
   </div>
@@ -256,7 +276,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 </section>
 
 <section class="section5">
-<h2 class="title__hidden">drie sleutels</h2>
+<h2 class="section__title glow grid-position1 digit__right center__text">Eerst moet je men sleutels vinden!</h2>
 <div id="particles-js2"> </div>
 <div class="key__images__container">
   <div class="copper__key container__key">

@@ -95,6 +95,19 @@ import ScrollMagic from 'scrollmagic';
     window.addEventListener('load', handleLoadEvent);
   };
 
+  const handleCLickMove = () => {
+    const $shell = document.querySelector(`.classlistAddMove`);
+    const $lookInsideLink = document.querySelector(`.look__inside_button`);
+    $shell.classList.add('partmoveY');
+    $lookInsideLink.style.display = 'block';
+    $lookInsideLink.classList.add('imageFadeIn');
+  };
+
+  const moveShell = () => {
+    const $buttonShell = document.querySelector(`.shell__button`);
+    $buttonShell.addEventListener('click', handleCLickMove);
+  };
+
 
 
   const init = () => {
@@ -103,6 +116,7 @@ import ScrollMagic from 'scrollmagic';
     scrollMagicProjectsRight();
     fadeOut();
     loader();
+    moveShell();
   };
 
   init();

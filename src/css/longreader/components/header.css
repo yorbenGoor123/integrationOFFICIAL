@@ -27,9 +27,12 @@
   }
 }
 
+.language__nl {
+  color: #019558;
+}
+
 .language__en {
   border-left: 1px solid black;
-  color: #019558;
 }
 
 .header {

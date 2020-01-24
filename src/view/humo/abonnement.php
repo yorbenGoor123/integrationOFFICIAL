@@ -47,7 +47,7 @@
       <div class="abbo__item">
       <p class="humo__overview__termijn">3 jaar</p>
       <img src="assets/humo/abbo__humo.svg" alt="Humo abbonement tarief 3">
-      <a class="buttonHumoRed__link button__abbo" href="">€112,76 euro/maand</a>
+      <a class="buttonHumoRed__link button__abbo" href="">€12,76 euro/maand</a>
       <div class="radio__button__container__abo">
       <label class="label__abo" for="digitaal">digitaal</label>
       <input class="abo__radio" type="radio" name="choice" value="digitaal__3jaar">

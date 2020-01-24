@@ -26,6 +26,12 @@
   margin: var(--spacerBig);
 }
 
+.james__halliday__speech {
+  color: var(--colorSecondary);
+  margin-left: 5rem;
+  font-size: 1.8rem;
+}
+
 @media screen and (--only-large-screen) {
 
   .background-image {

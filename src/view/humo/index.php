@@ -84,7 +84,7 @@
     <h2 class="section__title section__title__abbo">Abbonement</h2>
 
     <aside class="abbonement__paragraph__container">
-      <p class= "abbonement__paragraph">LEES DE HUMO OVERAL! Keuze uit digitaal papier of allebei </p>
+      <p class= "abbonement__paragraph">LEES DE HUMO OVERAL! Keuze uit digitaal, papier of allebei </p>
     </aside>
 
     <article class="overview__humo__abbo">
