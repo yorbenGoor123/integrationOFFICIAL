@@ -76,12 +76,14 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 5rem;
+  overflow-x: scroll;
+  margin-bottom: 0;
 
   @media (--only-large-screen) {
     align-items: flex-start;
   }
 }
+
 
 .previous__image {
   transform: rotate(180deg);
@@ -91,11 +93,14 @@
   margin: var(--spacerSmall);
 }
 
+.previous__next__buttons {
+  margin-bottom: 4rem;
+}
+
 .book__article__image__wrapper {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  overflow-x: scroll;
   grid-column: 3/5;
   width: 100%;
 }
@@ -199,7 +204,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
 }
 
 .product__information__overview__paragraph, .product__information__overview__title {
