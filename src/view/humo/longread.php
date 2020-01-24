@@ -208,11 +208,11 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 
  </p>
  </div>
-    <div class="button__pulsating grid-position3"><span class="pulsating__button shell__button"></span> <a class="pulsating__button__text" href="">Open Easter egg</a></div>
+    <div class="button__pulsating grid-position3"><span class="pulsating__button shell__button"></span><p class="pulsating__button__text keys__pulsating__text">Open easter egg</p></div>
     </div>
 
 
-    <a  class="look__inside_button" href="">Look inside</a>
+    <a  class="look__inside_button" href="index.php?page=longread#sleutels">Kijk in het ei</a>
   <div id="scene2" class="background-image__section4">
 
     <picture class="image__section4__part" data-depth="0.3">
@@ -275,7 +275,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 
 </section>
 
-<section class="section5">
+<section class="section5" id="sleutels">
 <h2 class="section__title glow grid-position1 digit__right center__text">Eerst moet je men sleutels vinden!</h2>
 <div id="particles-js2"> </div>
 <div class="key__images__container">
@@ -353,7 +353,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
         <div class="text__wrapper">
         <h2 class="section__title glow digit">DE DRIE SLEUTELS</h2>
 
-        <p class="section2__paragraph digit">Om het easter egg te voltooien moet je, zoals eerder al vermeld, drie poorten openen met drie sleutels. De drie sleutels zijn beproevingen die je niet testen op je skills maar ze testen je aan de hand van verschillende factoren: Hoe goed ken je Halliday?, Zou je the oasis met verstand behandelen?, Ben je het wel waard om the oasis te bezitten? etc. </p>
+        <p class="section2__paragraph digit">Om het easter egg te voltooien moet je, zoals eerder al vermeld, drie poorten openen met drie sleutels. De drie sleutels zijn beproevingen die je niet testen op je skills maar ze testen je aan de hand van verschillende factoren: Hoe goed ken je Halliday?, Zou je the oasis met verstand behandelen?, Ben je het wel waard om the oasis te bezitten? Halliday had deze beproevingen zo goed ingeplant dat ze bijna onmogelijk waren. Halliday wou dat op deze manier een volwaardige eigenaar zou ontstaan. Want hij ging de oasis niet zomaar opgeven aan een onbekende die Halliday zijn bedrijf zou over kopen. Deze beproevingen vormde een veiligheidsgordel dat er ging voor zorgen dat niemand de oasis ging gebruiken voor slechte doeleinden. Drie sleutels moest men verzamelen. Als je deze sleutels kon bezitten, heb je moed, karakter en maak je niet de fouten die halliday maakte. Want deze fouten konden het einde van the oasis betekenen. </p>
             <div class="button__pulsating"><span class="pulsating__button keys__button keys__container"></span> <p class="pulsating__button__text keys__pulsating__text">Verzamel de sleutels</p></div>
             </div>
 
@@ -491,14 +491,16 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 
         <section class="container__text__realWorld realWorld__cont">
           <h2 class="section__title glow grid-position1 center__text">De echte wereld</h2>
-          <p class="text__realWorld section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van vandaag. Een boek dat je een indirecte les geeft over internetveiligheid: vertrouw nooit iemand online. Mensen kunnen je privé gegevens achterhalen met de minste informatie dat je hen heeft. Parzival gaf zeer kleine tips waardoor zijn vijand metteen zijn echte identiteit kon ontdekken en een aanval kon plannen op zijn huis en zijn tante overleed. Gelukkig wist de vijand niet af van zijn geheime schuilplek waardoor hij zich voor bepaalde duur kon verschuilen onder de radar.</p>
+          <p class="text__realWorld section2__paragraph">Dus jij zou voor de echte wereld kiezen? Verrassend! De meeste mensen zouden jou ongelijk geven. Want wie zou nu niet in een droomwereld willen leven? Je kunt doen wat je maar wilt in een eigen setting. Je kunt je eigen scenario's maken en opstellen. Maar er komt wel een opoffering natuurlijk. Je echte leven! Goede keus dat je voor de echte wereld kiest want soms heb je eens tijd nodig voor je zelf in plaats van de hele tijd op een scherm te staan staren. The oasis heeft al veel mensen verslonden en hopelijk word jij er geen slachtoffer van!</p>
         </section>
 
         <p class="section__title glow grid-position1 digit__right center__text of__section7">of</p>
 
         <section class="container__text__realWorld oasisWorld__cont">
           <h2 class="section__title glow grid-position1 center__text">de oasis</h2>
-          <p class="text__realWorld section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van vandaag. Een boek dat je een indirecte les geeft over internetveiligheid: vertrouw nooit iemand online. Mensen kunnen je privé gegevens achterhalen met de minste informatie dat je hen heeft. Parzival gaf zeer kleine tips waardoor zijn vijand metteen zijn echte identiteit kon ontdekken en een aanval kon plannen op zijn huis en zijn tante overleed. Gelukkig wist de vijand niet af van zijn geheime schuilplek waardoor hij zich voor bepaalde duur kon verschuilen onder de radar.</p>
+          <p class="text__realWorld section2__paragraph">The oasis? Had ik wel gedacht! Een droomwereld waar je van kunt genieten ligt aan je voeten. Wie zou dat nu niet kiezen? The oasis kan heel leuk zijn met mate! Ga daarom dus niet er je hele leven in bazuinen, want daar ga je spijt van krijgen. Je kan de oasis perfect combineren met je echte leven. Want je echte leven moet je altijd op de eerste plaats zijn. Als je je echte leven niet had zou je dit tweede leven niet kunnen hebben.
+Have fun!
+</p>
         </section>
 
         <section class="section__justRemember">
@@ -515,7 +517,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
 is nooit veilig</h2>
 
 <div class="right grid-position2 digit__right">
-<p class="section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van vandaag. Een boek dat je een indirecte les geeft over internetveiligheid: vertrouw nooit iemand online. Mensen kunnen je privé gegevens achterhalen met de minste informatie dat je hen heeft. Parzival gaf zeer kleine tips waardoor zijn vijand metteen zijn echte identiteit kon ontdekken en een aanval kon plannen op zijn huis en zijn tante overleed. Gelukkig wist de vijand niet af van zijn geheime schuilplek waardoor hij zich voor bepaalde duur kon verschuilen onder de radar.
+<p class="section2__paragraph">The oasis is dan ook een metafoor op de internetwereld van vandaag. Een boek dat je een indirecte les geeft over internetveiligheid: vertrouw nooit iemand online. Mensen kunnen je privé gegevens achterhalen met de minste informatie dat je hen heeft. Parzival gaf zeer kleine tips waardoor zijn vijand metteen zijn echte identiteit kon ontdekken en een aanval kon plannen op zijn huis en zijn tante overleed. Gelukkig wist de vijand niet af van zijn geheime schuilplek waardoor hij zich voor bepaalde duur kon verschuilen onder de radar. In de geconnecteerde wereld van vandaag heb je genoeg mensen dat je willen kwetsen voor de minste redenen. Mensen kunnen zich anders voordoen dan dat ze zijn. Dit is de grote boeman van het internet. Door deze snel geconnecteerde wereld brengt dit positieve gevolgen op de wereld maar ook ontelbaar veel negatieve gevolgen. En dit boek introduceert je aan de negatieve gevolgen van een “snel geconnecteerde wereld”.
  </p>
  </div>
     <div class="button__pulsating grid-position3"><span class="pulsating__button"></span> <a class="pulsating__button__text" href="index.php?page=detail-page&id=1">KOOP BOEK</a></div>

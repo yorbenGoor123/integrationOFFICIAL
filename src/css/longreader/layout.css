@@ -45,3 +45,7 @@
 .section__justRemember__text {
   text-align: center;
 }
+
+html {
+  scroll-behavior: smooth;
+}
