@@ -494,7 +494,7 @@ De maker van the oasis had erin een easter egg verstopt dat volledig het lot erv
           <p class="text__realWorld section2__paragraph">Dus jij zou voor de echte wereld kiezen? Verrassend! De meeste mensen zouden jou ongelijk geven. Want wie zou nu niet in een droomwereld willen leven? Je kunt doen wat je maar wilt in een eigen setting. Je kunt je eigen scenario's maken en opstellen. Maar er komt wel een opoffering natuurlijk. Je echte leven! Goede keus dat je voor de echte wereld kiest want soms heb je eens tijd nodig voor je zelf in plaats van de hele tijd op een scherm te staan staren. The oasis heeft al veel mensen verslonden en hopelijk word jij er geen slachtoffer van!</p>
         </section>
 
-        <p class="section__title glow grid-position1 digit__right center__text of__section7">of</p>
+        <p class="section__title glow grid-position1 digit center__text of__section7">of</p>
 
         <section class="container__text__realWorld oasisWorld__cont">
           <h2 class="section__title glow grid-position1 center__text">de oasis</h2>
