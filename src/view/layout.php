@@ -38,7 +38,8 @@
 
 
     <div id="menuToggle" class= "menuToggle">
-      <input type="checkbox" />
+      <label class="hidden" for="hidden"></label>
+      <input id="hidden" type="checkbox" />
       <div class="hamburger__menu__wrapper">
       <span class="span__item"></span>
       <span class="span__item green"></span>
@@ -127,7 +128,7 @@
 <div class="navigation__wrapper">
 <nav role="navigation">
   <div id="menuToggle">
-
+    <label class="hidden" for="hidden"></label>
     <input type="checkbox" />
 
     <span></span>
@@ -135,14 +136,12 @@
     <span></span>
 
     <ul id="menu">
-      <a class="menu__item__link__hamburger menu__item__link__hamburger--active" href=""><li class="menu__item font-size-big-active">Home</li></a>
-      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Actua</li></a>
-      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Humor</li></a>
-      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Tv/film</li></a>
-      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Muziek</li></a>
-      <a class="menu__item__link__hamburger" href="#"><li class="menu__item">Boeken</li></a>
-
-      <div class="menu__button__basket__wrapper">
+      <li class="menu__item font-size-big-active"><a class="menu__item__link__hamburger menu__item__link__hamburger--active" href="index.php">Home</a></li>
+      <li  class="menu__item"><a class="menu__item__link__hamburger" href="#">Actua</a></li>
+      <li class="menu__item"><a class="menu__item__link__hamburger" href="#">Humor</a></li>
+      <li class="menu__item"><a class="menu__item__link__hamburger" href="#">Tv/film</a></li>
+      <li class="menu__item"><a class="menu__item__link__hamburger" href="#">Muziek</a></li>
+      <li class="menu__item"><a class="menu__item__link__hamburger" href="#">Boeken</a></li>
       <li class="menu__item__button menu__item__choice">
         <a class=menu__item__button__link href="index.php?page=product">Producten</a>
       </li>
@@ -150,7 +149,6 @@
       <li class="menu__item__basket menu__item__choice">
       <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt="basket"></a>
       </li>
-      </div>
     </ul>
   </div>
 </nav>
@@ -174,15 +172,15 @@
 </header>
 
 <ul>
-<li class="menu__button__basket__wrapper menu__button__basket__wrapper__desktop">
+<div class="menu__button__basket__wrapper menu__button__basket__wrapper__desktop">
       <li class="menu__item__button menu__item__choice">
         <a class=menu__item__button__link href="index.php?page=product">Producten</a>
       </li>
 
       <li class="menu__item__basket menu__item__choice">
-      <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt=""></a>
+      <a href="index.php?page=basket"><img src="assets/humo/basket.svg" alt="basket"></a>
       </li>
-  </li>
+      </div>
     </ul>
     <?php
         if(!empty($_SESSION['error'])) {
